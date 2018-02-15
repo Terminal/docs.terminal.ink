@@ -1,0 +1,20 @@
+<html>
+
+<head>
+    {% include head.html %}
+</head>
+
+<body>
+    <ul>
+        {% for post in site.pages %}{% if post.type == page.type and post.permalink != page.permalink %}
+        <li>
+            <a href="{{ site.url }}{{ post.url }}" target="_blank">{{ post.title }}</a>
+            <i>{{ post.description }}</i>
+        </li>
+        {% endif %}{% endfor %}
+    </ul>
+
+    {{ content }} {% include footer.html %}
+</body>
+
+</html>

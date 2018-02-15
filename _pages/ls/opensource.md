@@ -1,3 +1,12 @@
+---
+layout: default
+permalink: "/ls/opensource"
+type: ls
+
+title: "Open Source Attribution"
+description: "Attribution links to resources used"
+---
+
 This version of `ls.terminal.ink` was built with the following technologies:
 
 This list is not comprehensive: Please contact if we are missing any dependencies

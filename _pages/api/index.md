@@ -1,3 +1,10 @@
+---
+layout: default
+permalink: "/api/"
+
+title: "ls.terminal.ink"
+---
+
 # api.terminal.ink
 The Terminal.ink API is a free to use REST based endpoint, which accepts and returns JSON.
 

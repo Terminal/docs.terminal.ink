@@ -12,3 +12,5 @@ gem install bundler
 ```
 
 You may wish to look [here](https://help.github.com/articles/setting-up-your-github-pages-site-locally-with-jekyll/) for help setting this up initially.
+
+[thanks alex](https://github.com/AlexFlipnote/alexflipnote.github.io)
