@@ -2,15 +2,8 @@
 Documentation for >terminal_ services, using GitHub Pages
 
 ## Testing
-To test locally, run `bundle exec jekyll serve`.
+To test locally, run `jekyll serve`.
 
-You will need Ruby 2.1.0 or higher.
-You may need to install `bundler` with this command:
+You may wish to look 
+[here (thanks alex)](https://github.com/AlexFlipnote/alexflipnote.github.io) for help setting this up initially.
 
-```
-gem install bundler
-```
-
-You may wish to look [here](https://help.github.com/articles/setting-up-your-github-pages-site-locally-with-jekyll/) for help setting this up initially.
-
-[thanks alex](https://github.com/AlexFlipnote/alexflipnote.github.io)
