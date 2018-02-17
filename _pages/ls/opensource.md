@@ -7,9 +7,10 @@
 # If not, please read a copy here:
 #
 # https://creativecommons.org/licenses/by-sa/4.0/
-layout: default
+layout: docs
 permalink: "/ls/opensource"
-type: ls
+type: "Terminal.ink Bot List Documentation"
+category: meta
 
 title: "Open Source Attribution"
 description: "Attribution links to resources used"

@@ -9,14 +9,16 @@
     https://creativecommons.org/licenses/by-sa/4.0/
 -->
 <html>
-
-<head>
-    {% include head.html %}
-</head>
+{% include head.html %}
 
 <body>
     {% include header.html %}
-    {{ content }} {% include footer.html %}
+    <main>
+        <article>
+            {{ content }}
+        </article>
+    </main>
+    {% include footer.html %}
 </body>
 
 </html>

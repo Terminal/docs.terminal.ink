@@ -9,7 +9,8 @@
 # https://creativecommons.org/licenses/by-sa/4.0/
 layout: docs
 permalink: "/ls/"
-type: ls
+type: "Terminal.ink Bot List Documentation"
+category: main
 
 title: "ls.terminal.ink"
 description: "Home"

@@ -9,27 +9,33 @@
     https://creativecommons.org/licenses/by-sa/4.0/
 -->
 <html>
-
-<head>
-    {% include head.html %}
-</head>
+{% include head.html %}
 
 <body>
     {% include header.html %}
-    <ul>
-        {% for post in site.pages %}{% if post.type == page.type %}
-        <li>
-            {% if post.permalink == page.permalink %}
-            <b>{{ post.title }}</b>
-            {% else %}
-            <a href="{{ site.url }}{{ post.url }}" target="_blank">{{ post.title }}</a>
-            {% endif %}
-            <i>{{ post.description }}</i> 
-        </li>
-        {% endif %}{% endfor %}
-    </ul>
-
-    {{ content }} {% include footer.html %}
+    <main>
+        <nav>
+            <ul>
+                <li>
+                    <a href="/">All Docs</a>
+                </li>
+                <hr>
+                {% for post in site.pages %}{% if post.type == page.type %}
+                <li>
+                    {% if post.permalink == page.permalink %}
+                    <b title="{{ post.description }}">{{ post.title }}</b>
+                    {% else %}
+                    <a href="{{ site.url }}{{ post.url }}" target="_blank" title="{{ post.description }}">{{ post.title }}</a>
+                    {% endif %}
+                </li>
+                {% endif %}{% endfor %}
+            </ul>
+        </nav>
+        <article>
+            {{ content }}
+        </article>
+    </main>
+    {% include footer.html %}
 </body>
 
 </html>
