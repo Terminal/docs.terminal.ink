@@ -1,11 +1,14 @@
 header
     h1
         font-size: 1.25em
+        padding: 0px
+        margin: 0px
     background-color: #aaaaaa
     padding: 1em
 
 main
     display: flex
+    overflow-x: auto
 
 nav
     ul
@@ -26,6 +29,15 @@ article
         padding: 0.25em 0.25em
     th, tr, td
         border: 1px solid black
+    h1
+        font-size: 2em
+    @media (min-width: 800px)
+        padding: 0 3em 0 3em
+
 
 footer
+    background-color: #bbbbbb
     padding: 1em
+    text-align: center
+    flex-grow: 1
+    margin-top: 2em

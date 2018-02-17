@@ -15,6 +15,8 @@ title: "Terminal Documentation"
 
 # Terminal.ink Documentation
 
+## Education
+
 ## Terminal Sites
 - [api.terminal.ink](api)
 - [ls.terminal.ink](ls)
