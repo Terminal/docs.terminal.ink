@@ -1,3 +1,13 @@
+<!--
+    docs.terminal.ink
+    Copyright (C) 2018 Terminal.ink
+
+    This file is licenced under the CC-BY-SA-4.0. You should have
+    recieved a copy of the licence with this documentation series.
+    If not, please read a copy here:
+
+    https://creativecommons.org/licenses/by-sa/4.0/
+-->
 <html>
 
 <head>
@@ -5,11 +15,16 @@
 </head>
 
 <body>
+    {% include header.html %}
     <ul>
-        {% for post in site.pages %}{% if post.type == page.type and post.permalink != page.permalink %}
+        {% for post in site.pages %}{% if post.type == page.type %}
         <li>
+            {% if post.permalink == page.permalink %}
+            <b>{{ post.title }}</b>
+            {% else %}
             <a href="{{ site.url }}{{ post.url }}" target="_blank">{{ post.title }}</a>
-            <i>{{ post.description }}</i>
+            {% endif %}
+            <i>{{ post.description }}</i> 
         </li>
         {% endif %}{% endfor %}
     </ul>
