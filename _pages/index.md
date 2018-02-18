@@ -22,3 +22,8 @@ _Nothing here. Want to make one? Contact us via Discord._
 - [api.terminal.ink](api)
 <!-- - [cats.terminal.ink](cats) -->
 - [ls.terminal.ink](ls)
+
+---
+
+- [terminal.ink](https://terminal.ink)
+- [Discord](https://discord.gg/DwBCgta)
