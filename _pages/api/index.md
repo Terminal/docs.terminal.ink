@@ -16,7 +16,7 @@ description: "Home"
 ---
 
 # api.terminal.ink
-The Terminal.ink API is a free to use REST based endpoint, which accepts and returns JSON.
+The Terminal.ink API is a free to use REST based endpoint, which accepts and returns (mostly) JSON.
 
 The base URL is `https://api.terminal.ink/`
 

@@ -16,7 +16,9 @@ title: "Terminal Documentation"
 # Terminal.ink Documentation
 
 ## Education
+_Nothing here. Want to make one? Contact us via Discord._
 
 ## Terminal Sites
 - [api.terminal.ink](api)
+<!-- - [cats.terminal.ink](cats) -->
 - [ls.terminal.ink](ls)
