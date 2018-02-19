@@ -1,3 +1,21 @@
+---
+# docs.terminal.ink
+# Copyright (C) 2018 Terminal.ink
+#
+# This file is licenced under the CC-BY-SA-4.0. You should have
+# recieved a copy of the licence with this documentation series.
+# If not, please read a copy here:
+#
+# https://creativecommons.org/licenses/by-sa/4.0/
+layout: docs
+permalink: "/ls/opensource"
+type: "Terminal.ink Bot List Documentation"
+category: meta
+
+title: "Open Source Attribution"
+description: "Attribution links to resources used"
+---
+
 This version of `ls.terminal.ink` was built with the following technologies:
 
 This list is not comprehensive: Please contact if we are missing any dependencies

@@ -4,11 +4,18 @@ Documentation for >terminal_ services, using GitHub Pages
 ## Testing
 To test locally, run `bundle exec jekyll serve`.
 
-You will need Ruby 2.1.0 or higher.
-You may need to install `bundler` with this command:
+You may wish to look 
+[here (thanks alex)](https://github.com/AlexFlipnote/alexflipnote.github.io) for help setting this up initially.
+
+## Licence
 
 ```
-gem install bundler
-```
+docs.terminal.ink
+Copyright (C) 2018 Terminal.ink
 
-You may wish to look [here](https://help.github.com/articles/setting-up-your-github-pages-site-locally-with-jekyll/) for help setting this up initially.
+This file is licenced under the CC-BY-SA-4.0. You should have
+recieved a copy of the licence with this documentation series.
+If not, please read a copy here:
+
+https://creativecommons.org/licenses/by-sa/4.0/
+```

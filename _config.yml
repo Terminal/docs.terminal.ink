@@ -1,4 +1,19 @@
 title: Terminal.ink Documentation
 description: Documentation for Terminal.ink
-theme: jekyll-theme-minimal
-show_downloads: true
+
+domain: "https://docs.terminal.ink"
+baseurl: ""
+url: "https://docs.terminal.ink"
+encoding: utf-8
+
+include: ['_pages', '_docs']
+
+markdown: kramdown
+
+kramdown:
+  auto_ids: true
+  input: GFM
+
+sass:
+  sass_dir: _sass
+  style: compressed
