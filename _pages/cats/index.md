@@ -22,7 +22,7 @@ It is currently under heavy changes, so don't be surprised if this file is sudde
 
 The base URL is `https://cats.terminal.ink/api`
 
-## Cats `GET /api`
+## Cats `GET /`
 Get an image of a colour.
 
 Query Parameter       | Value                           | Optional | Default   | Description
