@@ -20,8 +20,8 @@ The Terminal.ink Cats API is a free to use REST based endpoint, which accepts an
 
 The base URL is `https://cats.terminal.ink/api`
 
-## Colour `GET /`
-Get an image of a colour.
+## Cats `GET /`
+Get an image of a cat.
 
 Query Parameter       | Value                           | Optional | Default   | Description
 --------------------- | ------------------------------- | -------- | --------- | -----------
