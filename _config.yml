@@ -17,3 +17,15 @@ kramdown:
 sass:
   sass_dir: _sass
   style: compressed
+
+collections_dir: _collections
+collections:
+  ls:
+    output: true
+  index:
+    output: true
+    permalink: /
+  cats:
+    output: true
+  api:
+    output: true
