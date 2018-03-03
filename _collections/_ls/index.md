@@ -9,7 +9,7 @@
 # https://creativecommons.org/licenses/by-sa/4.0/
 layout: docs
 category: index
-description: "Home"
+description: Index of the Terminal.ink Bot List documentation
 title: Home
 ---
 

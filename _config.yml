@@ -27,7 +27,7 @@ collections:
     output: true
   index:
     output: true
-    permalink: /
+    permalink: /:name
   cats:
     output: true
   api:

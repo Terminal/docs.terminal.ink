@@ -9,10 +9,10 @@
 # https://creativecommons.org/licenses/by-sa/4.0/
 layout: default
 description: Documentation
+category: index
 ---
 
 # Terminal.ink Documentation
-
 ## Education
 _Nothing here. Want to make one? Contact us via Discord._
 
@@ -21,7 +21,11 @@ _Nothing here. Want to make one? Contact us via Discord._
 <!-- - [cats.terminal.ink](cats) -->
 - [ls.terminal.ink](ls)
 
+## Meta
+- [Writing Documentation](create)
+
 ---
 
+## Links
 - [terminal.ink](https://terminal.ink)
 - [Discord](https://discord.gg/DwBCgta)
