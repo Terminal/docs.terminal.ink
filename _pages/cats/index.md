@@ -16,15 +16,17 @@ description: "Home"
 ---
 
 # cats.terminal.ink
-The Terminal.ink Cats API is a free to use REST based endpoint, which accepts and returns images
+The Terminal.ink Cats API is a free to use REST based endpoint, which returns random cat images
+
+It is currently under heavy changes, so don't be surprised if this file is suddenly wrong.
 
 The base URL is `https://cats.terminal.ink/api`
 
 ## Cats `GET /`
-Get an image of a cat.
+Get an image of a colour.
 
 Query Parameter       | Value                           | Optional | Default   | Description
 --------------------- | ------------------------------- | -------- | --------- | -----------
-ext                   | `png` / `gif`                   | Yes      | any       | The file type of the result. Can be either by default.
+ext                   | `png` / `gif` / `jpg` / `jpeg`  | Yes      | any       | The file type of the result. Can be either by default.
 
-**Returns:** `image/png` or `image/gif`
+**Returns:** Link to the image file (`image/png` or `image/gif`)
