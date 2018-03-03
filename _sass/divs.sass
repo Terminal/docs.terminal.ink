@@ -11,13 +11,31 @@ main
     overflow-x: auto
 
 nav
+    h1
+        margin: 0
+        padding: 0 0 0 0.5em
+        font-size: 1em
     ul
         list-style: none
         margin: 0  
-        padding: 0 0 0 0.5em
-        font-size: 0.75em
+        padding: 0
+    li
+        padding: 0.1em 0.1em 0.1em 1em
+        display: flex
+    a, b
+        font-size: 0.8em
+    a
+        color: inherit
+        text-decoration: none
+    .option
+        background: #ffffff
+        transition: background 0.3s
+        &:hover
+            background: #aaaaff
+    .selected
+        background: #aaaaff
     padding: 0.5em 0.5em 0.5em 0
-    width: 10em
+    width: 12em
     flex-shrink: 0
 
 article

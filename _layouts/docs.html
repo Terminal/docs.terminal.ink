@@ -16,21 +16,23 @@
     <main>
         <nav>
             <ul>
-                <li>
-                    <a href="/">All Docs</a>
-                </li>
+                <a href="/">
+                    <li class="option">All Docs</li>
+                </a>
                 <hr>
                 {% for category in site.data.type[page.collection].categories %}
-                <h3>{{ category.name }}</h3>
+                <h1>{{ category.name }}</h1>
                 {% for post in site[page.collection] %}
                 {% if post.category == category.key %}
-                <li>
-                    {% if post.url == page.url %}
+                {% if post.url == page.url %}
+                <li class="option selected">
                     <b>{{ post.title }}</b>
-                    {% else %}
-                    <a href="{{ site.url }}{{ post.url }}" title="{{ post.description }}">{{ post.title }}</a>
-                    {% endif %}
                 </li>
+                {% else %}
+                <a href="{{ site.url }}{{ post.url }}" title="{{ post.description }}">
+                    <li class="option">{{ post.title }}</li>
+                </a>
+                {% endif %}
                 {% endif %}
                 {% endfor %}
                 {% endfor %}

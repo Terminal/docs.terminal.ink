@@ -14,6 +14,8 @@ title: Home
 ---
 
 # ls.terminal.ink
+[![Build Status](https://travis-ci.org/Terminal/ls.terminal.ink.svg?branch=master)](https://travis-ci.org/Terminal/ls.terminal.ink)
+
 The Terminal.ink Bot List is a repository of bots made by Terminal.ink users
 
 - [Add a bot to the website](https://ls.terminal.ink/bot/add)
