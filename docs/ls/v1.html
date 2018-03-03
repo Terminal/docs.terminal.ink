@@ -1,0 +1,400 @@
+<!--
+    docs.terminal.ink
+    Copyright (C) 2018 Terminal.ink
+
+    This file is licenced under the CC-BY-SA-4.0. You should have
+    recieved a copy of the licence with this documentation series.
+    If not, please read a copy here:
+
+    https://creativecommons.org/licenses/by-sa/4.0/
+-->
+<html>
+<head>
+    
+    <title>V1 - Terminal.ink Bot List</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="/assets/css/index.css" type="text/css" rel="stylesheet">
+</head>
+
+
+<body>
+    <header>
+    <h1>Terminal.ink Documentation</h1>
+</header>
+    <main>
+        <nav>
+            <ul>
+                <li>
+                    <a href="/">All Docs</a>
+                </li>
+                <hr>
+                
+                <li>
+                    
+                    <b title=""></b>
+                    
+                </li>
+                
+            </ul>
+        </nav>
+        <article>
+            <h1 id="lsterminalink-v1-api">ls.terminal.ink v1 API</h1>
+<p>The API for communicating with ls.terminal.ink, which accepts and returns JSON.</p>
+
+<p>Some endpoints may require the use of a token. When one is required, obtain a token from your bot by selecting the <code class="highlighter-rouge">Token</code> button, and sending this token as part of the HTTP <code class="highlighter-rouge">Authorization</code> header.</p>
+
+<p>The base URL is <code class="highlighter-rouge">https://ls.terminal.ink/api/v1/</code></p>
+
+<h2 id="test-token-use-testid">Test Token <code class="highlighter-rouge">USE /test/:id</code></h2>
+<p><strong>Token Required</strong>: Test your token.</p>
+
+<p><strong>Returns:</strong></p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Key</th>
+      <th>Data Type</th>
+      <th>Optional</th>
+      <th>Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>message</td>
+      <td>String</td>
+      <td> </td>
+      <td>OK message</td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="get-all-bots-get-bots">Get all bots <code class="highlighter-rouge">GET /bots</code></h2>
+
+<p><strong>Returns:</strong> Array of Bots</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Key</th>
+      <th>Data Type</th>
+      <th>Optional</th>
+      <th>Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>approved</td>
+      <td>Boolean</td>
+      <td> </td>
+      <td>A flag showing if the bot has been approved yet</td>
+    </tr>
+    <tr>
+      <td>avatar</td>
+      <td>String</td>
+      <td> </td>
+      <td>The URL of the avatar of the bot</td>
+    </tr>
+    <tr>
+      <td>category</td>
+      <td>String</td>
+      <td>Yes</td>
+      <td>A string of the category the bot is in</td>
+    </tr>
+    <tr>
+      <td>count</td>
+      <td>Number</td>
+      <td>Yes</td>
+      <td>The number of guilds on a bot</td>
+    </tr>
+    <tr>
+      <td>downvotes</td>
+      <td>Number</td>
+      <td> </td>
+      <td>The number of downvotes</td>
+    </tr>
+    <tr>
+      <td>id</td>
+      <td>String</td>
+      <td> </td>
+      <td>The ID of a bot</td>
+    </tr>
+    <tr>
+      <td>invite</td>
+      <td>String</td>
+      <td> </td>
+      <td>The invite URL of the bot</td>
+    </tr>
+    <tr>
+      <td>longDesc</td>
+      <td>String</td>
+      <td> </td>
+      <td>The long description of the bot</td>
+    </tr>
+    <tr>
+      <td>name</td>
+      <td>String</td>
+      <td> </td>
+      <td>The display name of the bot</td>
+    </tr>
+    <tr>
+      <td>owner</td>
+      <td>Number</td>
+      <td> </td>
+      <td>The owner ID</td>
+    </tr>
+    <tr>
+      <td>owners</td>
+      <td>Number[]</td>
+      <td>Yes</td>
+      <td>An array of additional owner IDs</td>
+    </tr>
+    <tr>
+      <td>prefix</td>
+      <td>String</td>
+      <td>Yes</td>
+      <td>The prefix of the bot</td>
+    </tr>
+    <tr>
+      <td>random</td>
+      <td>Number</td>
+      <td> </td>
+      <td>A number determining the position on the homepage</td>
+    </tr>
+    <tr>
+      <td>shortDesc</td>
+      <td>String</td>
+      <td> </td>
+      <td>The short description of the bot</td>
+    </tr>
+    <tr>
+      <td>theme</td>
+      <td>String</td>
+      <td> </td>
+      <td>The theme of the page of the bot</td>
+    </tr>
+    <tr>
+      <td>timestamp</td>
+      <td>Number</td>
+      <td> </td>
+      <td>The UNIX timestamp of when the bot was added</td>
+    </tr>
+    <tr>
+      <td>type</td>
+      <td>String</td>
+      <td> </td>
+      <td>The long description type</td>
+    </tr>
+    <tr>
+      <td>votes</td>
+      <td>Number[]</td>
+      <td> </td>
+      <td>An array of votes. Either contains <code class="highlighter-rouge">1</code>, <code class="highlighter-rouge">0</code> or <code class="highlighter-rouge">-1</code></td>
+    </tr>
+    <tr>
+      <td>rating</td>
+      <td>Number</td>
+      <td> </td>
+      <td>The score of a bot</td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="get-bot-info-get-botsid">Get bot info <code class="highlighter-rouge">GET /bots/:id</code></h2>
+
+<p><strong>Returns:</strong></p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Key</th>
+      <th>Data Type</th>
+      <th>Optional</th>
+      <th>Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>approved</td>
+      <td>Boolean</td>
+      <td> </td>
+      <td>A flag showing if the bot has been approved yet</td>
+    </tr>
+    <tr>
+      <td>avatar</td>
+      <td>String</td>
+      <td> </td>
+      <td>The URL of the avatar of the bot</td>
+    </tr>
+    <tr>
+      <td>category</td>
+      <td>String</td>
+      <td>Yes</td>
+      <td>A string of the category the bot is in</td>
+    </tr>
+    <tr>
+      <td>count</td>
+      <td>Number</td>
+      <td>Yes</td>
+      <td>The number of guilds on a bot</td>
+    </tr>
+    <tr>
+      <td>downvotes</td>
+      <td>Number</td>
+      <td> </td>
+      <td>The number of downvotes</td>
+    </tr>
+    <tr>
+      <td>id</td>
+      <td>String</td>
+      <td> </td>
+      <td>The ID of a bot</td>
+    </tr>
+    <tr>
+      <td>invite</td>
+      <td>String</td>
+      <td> </td>
+      <td>The invite URL of the bot</td>
+    </tr>
+    <tr>
+      <td>longDesc</td>
+      <td>String</td>
+      <td> </td>
+      <td>The long description of the bot</td>
+    </tr>
+    <tr>
+      <td>name</td>
+      <td>String</td>
+      <td> </td>
+      <td>The display name of the bot</td>
+    </tr>
+    <tr>
+      <td>owner</td>
+      <td>Number</td>
+      <td> </td>
+      <td>The owner ID</td>
+    </tr>
+    <tr>
+      <td>owners</td>
+      <td>Number[]</td>
+      <td>Yes</td>
+      <td>An array of additional owner IDs</td>
+    </tr>
+    <tr>
+      <td>prefix</td>
+      <td>String</td>
+      <td>Yes</td>
+      <td>The prefix of the bot</td>
+    </tr>
+    <tr>
+      <td>random</td>
+      <td>Number</td>
+      <td> </td>
+      <td>A number determining the position on the homepage</td>
+    </tr>
+    <tr>
+      <td>shortDesc</td>
+      <td>String</td>
+      <td> </td>
+      <td>The short description of the bot</td>
+    </tr>
+    <tr>
+      <td>theme</td>
+      <td>String</td>
+      <td> </td>
+      <td>The theme of the page of the bot</td>
+    </tr>
+    <tr>
+      <td>timestamp</td>
+      <td>Number</td>
+      <td> </td>
+      <td>The UNIX timestamp of when the bot was added</td>
+    </tr>
+    <tr>
+      <td>type</td>
+      <td>String</td>
+      <td> </td>
+      <td>The long description type</td>
+    </tr>
+    <tr>
+      <td>votes</td>
+      <td>Number[]</td>
+      <td> </td>
+      <td>An array of votes. Either contains <code class="highlighter-rouge">1</code>, <code class="highlighter-rouge">0</code> or <code class="highlighter-rouge">-1</code></td>
+    </tr>
+    <tr>
+      <td>rating</td>
+      <td>Number</td>
+      <td> </td>
+      <td>The score of a bot</td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="update-count-post-botsid">Update Count <code class="highlighter-rouge">POST /bots/:id</code></h2>
+<p><strong>Token Required</strong>:  Update your bot count</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>JSON Key</th>
+      <th>Value</th>
+      <th>Optional</th>
+      <th>Default</th>
+      <th>Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>count / server_count</td>
+      <td>Number</td>
+      <td> </td>
+      <td> </td>
+      <td>Set the guild count for your bot.</td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="get-embed-get-botsidembed">Get embed <code class="highlighter-rouge">GET /bots/:id/embed</code></h2>
+<p>Returns a “cool” embed that’s sure to impress nobody.
+You can embed this image on your website, or even <code class="highlighter-rouge">discordbots.org</code>.</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Query Parameter</th>
+      <th>Result</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>width</td>
+      <td>Change the width of the svg. Invalid options will make your embed look like it’s broken.</td>
+    </tr>
+    <tr>
+      <td>locale</td>
+      <td>Change the locale of the svg <a href="https://github.com/Terminal/ls.terminal.ink/tree/master/locales">(List of locales)</a> Invalid options will revert back to <code class="highlighter-rouge">en-gb</code>.</td>
+    </tr>
+    <tr>
+      <td>type</td>
+      <td>Select the file format to output. Default <code class="highlighter-rouge">.svg</code>. Other options include <code class="highlighter-rouge">.png</code>. Invalid options will revert back to <code class="highlighter-rouge">.svg</code></td>
+    </tr>
+  </tbody>
+</table>
+
+<p><strong>Returns:</strong> <code class="highlighter-rouge">image/svg+xml</code> or <code class="highlighter-rouge">image/png</code></p>
+
+        </article>
+    </main>
+    <footer>
+    <p>
+        <i>Copyright 2017 - 2018, docs.terminal.ink</i>
+    </p>
+    <p>
+        <i>Licenced under <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC-BY-SA-4.0</a></i>
+    </p>
+</footer>
+
+</body>
+
+</html>

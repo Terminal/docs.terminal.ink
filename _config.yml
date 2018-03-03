@@ -4,9 +4,12 @@ description: Documentation for Terminal.ink
 domain: "https://docs.terminal.ink"
 baseurl: ""
 url: "https://docs.terminal.ink"
+
+destination: docs
+
 encoding: utf-8
 
-include: ['_pages', '_docs']
+# include: ['_pages', '_docs']
 
 markdown: kramdown
 

@@ -1,0 +1,160 @@
+<!--
+    docs.terminal.ink
+    Copyright (C) 2018 Terminal.ink
+
+    This file is licenced under the CC-BY-SA-4.0. You should have
+    recieved a copy of the licence with this documentation series.
+    If not, please read a copy here:
+
+    https://creativecommons.org/licenses/by-sa/4.0/
+-->
+<html>
+<head>
+    
+    <title>api.terminal.ink - Terminal.ink API Server</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="/assets/css/index.css" type="text/css" rel="stylesheet">
+</head>
+
+
+<body>
+    <header>
+    <h1>Terminal.ink Documentation</h1>
+</header>
+    <main>
+        <nav>
+            <ul>
+                <li>
+                    <a href="/">All Docs</a>
+                </li>
+                <hr>
+                
+            </ul>
+        </nav>
+        <article>
+            <h1 id="apiterminalink">api.terminal.ink</h1>
+<p>The Terminal.ink API is a free to use REST based endpoint, which accepts and returns (mostly) JSON.</p>
+
+<p>The base URL is <code class="highlighter-rouge">https://api.terminal.ink/</code></p>
+
+<h2 id="colour-get-colour">Colour <code class="highlighter-rouge">GET /colour</code></h2>
+<p>Get an image of a colour.</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Query Parameter</th>
+      <th>Value</th>
+      <th>Optional</th>
+      <th>Default</th>
+      <th>Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>c / color / colour</td>
+      <td>HEX Colour</td>
+      <td>Yes</td>
+      <td><code class="highlighter-rouge">FFFFFF</code></td>
+      <td>Set colour</td>
+    </tr>
+    <tr>
+      <td>w / width</td>
+      <td>Integer Pixels</td>
+      <td>Yes</td>
+      <td><code class="highlighter-rouge">100</code></td>
+      <td>Set width</td>
+    </tr>
+    <tr>
+      <td>h / height</td>
+      <td>Integer Pixels</td>
+      <td>Yes</td>
+      <td><code class="highlighter-rouge">100</code></td>
+      <td>Set height</td>
+    </tr>
+    <tr>
+      <td>size</td>
+      <td>Integer Pixels</td>
+      <td>Yes</td>
+      <td><code class="highlighter-rouge">100</code></td>
+      <td>Set both width and height. Overrides width and height</td>
+    </tr>
+  </tbody>
+</table>
+
+<p><strong>Returns:</strong> <code class="highlighter-rouge">image/png</code></p>
+
+<h2 id="steam-get-steamid">Steam <code class="highlighter-rouge">GET /steamid</code></h2>
+<p>Get information on a SteamID.</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Query Parameter</th>
+      <th>Value</th>
+      <th>Optional</th>
+      <th>Default</th>
+      <th>Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>search</td>
+      <td>SteamID64, SteamID32, CustomURL</td>
+      <td> </td>
+      <td> </td>
+      <td>The search query</td>
+    </tr>
+    <tr>
+      <td>key</td>
+      <td>Steam API Key</td>
+      <td> </td>
+      <td> </td>
+      <td>The Steam API Key. <a href="http://steamcommunity.com/dev/apikey">Obtain one here</a></td>
+    </tr>
+  </tbody>
+</table>
+
+<p><strong>Returns:</strong></p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Key</th>
+      <th>Data Type</th>
+      <th>Optional</th>
+      <th>Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>status</td>
+      <td>Number</td>
+      <td> </td>
+      <td>The HTTP status code returned by Steam. The API server will still send <code class="highlighter-rouge">200</code></td>
+    </tr>
+    <tr>
+      <td>message</td>
+      <td>String</td>
+      <td> </td>
+      <td>A message on the error</td>
+    </tr>
+  </tbody>
+</table>
+
+<p><strong>Ratelimits:</strong> 100,000 requests per day</p>
+
+        </article>
+    </main>
+    <footer>
+    <p>
+        <i>Copyright 2017 - 2018, docs.terminal.ink</i>
+    </p>
+    <p>
+        <i>Licenced under <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC-BY-SA-4.0</a></i>
+    </p>
+</footer>
+
+</body>
+
+</html>

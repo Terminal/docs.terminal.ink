@@ -1,0 +1,81 @@
+<!--
+    docs.terminal.ink
+    Copyright (C) 2018 Terminal.ink
+
+    This file is licenced under the CC-BY-SA-4.0. You should have
+    recieved a copy of the licence with this documentation series.
+    If not, please read a copy here:
+
+    https://creativecommons.org/licenses/by-sa/4.0/
+-->
+<html>
+<head>
+    
+    <title>cats.terminal.ink - cats.terminal.ink</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="/assets/css/index.css" type="text/css" rel="stylesheet">
+</head>
+
+
+<body>
+    <header>
+    <h1>Terminal.ink Documentation</h1>
+</header>
+    <main>
+        <nav>
+            <ul>
+                <li>
+                    <a href="/">All Docs</a>
+                </li>
+                <hr>
+                
+            </ul>
+        </nav>
+        <article>
+            <h1 id="catsterminalink">cats.terminal.ink</h1>
+<p>The Terminal.ink Cats API is a free to use REST based endpoint, which returns random cat images</p>
+
+<p>It is currently under heavy changes, so don’t be surprised if this file is suddenly wrong.</p>
+
+<p>The base URL is <code class="highlighter-rouge">https://cats.terminal.ink/api</code></p>
+
+<h2 id="cats-get-">Cats <code class="highlighter-rouge">GET /</code></h2>
+<p>Get an image of a colour.</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Query Parameter</th>
+      <th>Value</th>
+      <th>Optional</th>
+      <th>Default</th>
+      <th>Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>ext</td>
+      <td><code class="highlighter-rouge">png</code> / <code class="highlighter-rouge">gif</code> / <code class="highlighter-rouge">jpg</code> / <code class="highlighter-rouge">jpeg</code></td>
+      <td>Yes</td>
+      <td>any</td>
+      <td>The file type of the result. Can be either by default.</td>
+    </tr>
+  </tbody>
+</table>
+
+<p><strong>Returns:</strong> Link to the image file (<code class="highlighter-rouge">image/png</code> or <code class="highlighter-rouge">image/gif</code>)</p>
+
+        </article>
+    </main>
+    <footer>
+    <p>
+        <i>Copyright 2017 - 2018, docs.terminal.ink</i>
+    </p>
+    <p>
+        <i>Licenced under <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC-BY-SA-4.0</a></i>
+    </p>
+</footer>
+
+</body>
+
+</html>
