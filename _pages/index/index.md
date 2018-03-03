@@ -9,8 +9,7 @@
 # https://creativecommons.org/licenses/by-sa/4.0/
 layout: default
 permalink: "/"
-
-title: "Terminal Documentation"
+type: index
 ---
 
 # Terminal.ink Documentation

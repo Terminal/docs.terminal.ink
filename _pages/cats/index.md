@@ -9,7 +9,7 @@
 # https://creativecommons.org/licenses/by-sa/4.0/
 layout: docs
 permalink: "/cats/"
-type: "cats.terminal.ink"
+type: "cats"
 
 title: "cats.terminal.ink"
 description: "Home"

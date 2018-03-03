@@ -9,7 +9,7 @@
 # https://creativecommons.org/licenses/by-sa/4.0/
 layout: docs
 permalink: "/api/"
-type: "api.terminal.ink"
+type: "api"
 
 title: "api.terminal.ink"
 description: "Home"
