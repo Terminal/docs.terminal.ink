@@ -8,11 +8,9 @@
 #
 # https://creativecommons.org/licenses/by-sa/4.0/
 layout: docs
-permalink: "/cats/"
-type: "cats"
-
-title: "cats.terminal.ink"
-description: "Home"
+category: api
+description: Home
+title: cats.terminal.ink
 ---
 
 # cats.terminal.ink

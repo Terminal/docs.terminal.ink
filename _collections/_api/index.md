@@ -8,11 +8,9 @@
 #
 # https://creativecommons.org/licenses/by-sa/4.0/
 layout: docs
-permalink: "/api/"
-type: "api"
-
-title: "api.terminal.ink"
-description: "Home"
+category: api
+description: Home
+title: api.terminal.ink
 ---
 
 # api.terminal.ink

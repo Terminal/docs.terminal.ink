@@ -8,8 +8,7 @@
 #
 # https://creativecommons.org/licenses/by-sa/4.0/
 layout: default
-permalink: "/"
-type: index
+description: Documentation
 ---
 
 # Terminal.ink Documentation

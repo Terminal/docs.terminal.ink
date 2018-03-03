@@ -8,8 +8,9 @@
 #
 # https://creativecommons.org/licenses/by-sa/4.0/
 layout: docs
-category: main
+category: index
 description: "Home"
+title: Home
 ---
 
 # ls.terminal.ink

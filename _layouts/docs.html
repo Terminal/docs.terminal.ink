@@ -20,15 +20,20 @@
                     <a href="/">All Docs</a>
                 </li>
                 <hr>
-                {% for post in site.pages %}{% if post.type == page.type %}
+                {% for category in site.data.type[page.collection].categories %}
+                <h3>{{ category.name }}</h3>
+                {% for post in site[page.collection] %}
+                {% if post.category == category.key %}
                 <li>
-                    {% if post.permalink == page.permalink %}
-                    <b title="{{ post.description }}">{{ post.title }}</b>
+                    {% if post.url == page.url %}
+                    <b>{{ post.title }}</b>
                     {% else %}
                     <a href="{{ site.url }}{{ post.url }}" title="{{ post.description }}">{{ post.title }}</a>
                     {% endif %}
                 </li>
-                {% endif %}{% endfor %}
+                {% endif %}
+                {% endfor %}
+                {% endfor %}
             </ul>
         </nav>
         <article>

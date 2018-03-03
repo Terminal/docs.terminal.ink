@@ -8,8 +8,9 @@
 #
 # https://creativecommons.org/licenses/by-sa/4.0/
 layout: docs
-category: meta
-description: "Attribution links to resources used"
+category: info
+description: Attribution links to resources used
+title: Open Source attributions
 ---
 
 This version of `ls.terminal.ink` was built with the following technologies:
