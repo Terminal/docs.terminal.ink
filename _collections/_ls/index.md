@@ -29,4 +29,4 @@ The Terminal.ink Bot List is a repository of bots made by Terminal.ink users
 - [Source Code](https://github.com/Terminal/ls.terminal.ink)
 - [List of Open Source Materials](opensource)
 
-The Terminal.ink Bot List is licenced under the [GNU GPL v3](https://www.gnu.org/licenses/gpl-3.0.en.html).
+The Terminal.ink Bot List is licenced under the <span class="majik">[GNU GPL v3](https://www.gnu.org/licenses/gpl-3.0.en.html).</span>
