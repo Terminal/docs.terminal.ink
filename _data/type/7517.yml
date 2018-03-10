@@ -14,8 +14,8 @@ categories:
     name: Fundamentals of data representation
   - key: "4.6"
     name: Fundamentals of computer systems
-  # - key: "4.7"
-  #   name: Fundamentals of computer organisation and architecture
+  - key: "4.7"
+    name: Fundamentals of computer organisation and architecture
   # - key: "4.8"
   #   name: Consequences of uses of computing
   # - key: "4.9"
