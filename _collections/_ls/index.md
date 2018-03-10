@@ -17,15 +17,15 @@ title: ls.terminal.ink
 
 The Terminal.ink Bot List is a repository of bots made by Terminal.ink users
 
-- [Add a bot to the website](https://ls.terminal.ink/bot/add)
-- [View the Queue](https://ls.terminal.ink/list/queue)
+- [Add a bot to the website](https://ls.terminal.ink/bot/add){: .ext}
+- [View the Queue](https://ls.terminal.ink/list/queue){: .ext}
 
 ## List API
 - [API V1](v1)
 
 ## Useful links
 
-- [Source Code](https://github.com/Terminal/ls.terminal.ink)
+- [Source Code](https://github.com/Terminal/ls.terminal.ink){: .ext}
 - [List of Open Source Materials](opensource)
 
-The Terminal.ink Bot List is licenced under the <span class="majik">[GNU GPL v3](https://www.gnu.org/licenses/gpl-3.0.en.html).</span>
+The Terminal.ink Bot List is licenced under the [GNU GPL v3](https://www.gnu.org/licenses/gpl-3.0.en.html){: .majik}.

@@ -28,5 +28,5 @@ category: index
 ---
 
 ## External Links
-- [terminal.ink](https://terminal.ink)
-- [Discord](https://discord.gg/DwBCgta)
+- [terminal.ink](https://terminal.ink){: .ext}
+- [Discord](https://discord.gg/DwBCgta){: .ext}

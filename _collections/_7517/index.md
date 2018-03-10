@@ -12,3 +12,5 @@ category: index
 description: Index of the AQA A-Level Specification for Computer Science
 title: Home
 ---
+
+[View the original specification sheet here](http://filestore.aqa.org.uk/resources/computing/specifications/AQA-7516-7517-SP-2015.PDF){: .ext}
