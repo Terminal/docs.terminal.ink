@@ -16,7 +16,7 @@ import:
 
 ## 4.5.6 Representing images, sound and other data
 
-![A line graph](/assets/img/soundgraph.png)
+[![A line graph](/assets/img/soundgraph.png)](/assets/documents/soundgraph.ods)
 
 1. Convert this analogue signal to an 3 bit depth digital representation
   - 000 010 100 111 110 011 010 001
