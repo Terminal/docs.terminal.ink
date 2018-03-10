@@ -1,0 +1,329 @@
+<!--
+    docs.terminal.ink
+    Copyright (C) 2018 Terminal.ink
+
+    This file is licenced under the CC-BY-SA-4.0. You should have
+    recieved a copy of the licence with this documentation series.
+    If not, please read a copy here:
+
+    https://creativecommons.org/licenses/by-sa/4.0/
+-->
+<html>
+<head>
+    
+    <title>4.6.5 Boolean Algebra - Computer Science (AQA 7517 Specification) Help</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="/assets/css/index.css" type="text/css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+
+
+<body>
+    <header>
+    <a class="default" href="/">
+        <h1>Terminal.ink Documentation</h1>
+    </a>
+    <i><b>4.6.5 Boolean Algebra</b> of Computer Science (AQA 7517 Specification) Help</i>
+</header>
+
+    <main>
+        <nav>
+            <ul>
+                <a class="default" href="/">
+                    <li class="option">All Docs</li>
+                </a>
+                <hr>
+                
+                <h1>Index</h1>
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                <a class="default" href="/7517/index.html" title="Index of the AQA A-Level Specification for Computer Science">
+                    <li class="option">Home</li>
+                </a>
+                
+                
+                
+                
+                <h1>Fundamentals of data representation</h1>
+                
+                
+                
+                
+                <a class="default" href="/7517/4.5.1.html" title="">
+                    <li class="option">4.5.1 Number Systems</li>
+                </a>
+                
+                
+                
+                
+                
+                <a class="default" href="/7517/4.5.2.html" title="">
+                    <li class="option">4.5.2 Number Bases</li>
+                </a>
+                
+                
+                
+                
+                
+                <a class="default" href="/7517/4.5.3.html" title="">
+                    <li class="option">4.5.3 Units of information</li>
+                </a>
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                <h1>Fundamentals of computer systems</h1>
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                <a class="default" href="/7517/4.6.4.html" title="">
+                    <li class="option">4.6.4 Logic Gates</li>
+                </a>
+                
+                
+                
+                
+                
+                <li class="option selected">
+                    <b>4.6.5 Boolean Algebra</b>
+                </li>
+                
+                
+                
+                
+                
+                
+            </ul>
+        </nav>
+        <article>
+            <h1>4.6.5 Boolean Algebra</h1>
+            <h2 id="4651-using-boolean-algebra">4.6.5.1 Using Boolean Algebra</h2>
+
+<h3 id="addition">Addition</h3>
+<p>Boolean numbers can be added together.
+This is equivalent to an OR gate.</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>A</th>
+      <th>B</th>
+      <th>Q</th>
+      <th>Algebra</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>\(0 + 0 = 0\)</td>
+    </tr>
+    <tr>
+      <td>0</td>
+      <td>1</td>
+      <td>1</td>
+      <td>\(0 + 1 = 1\)</td>
+    </tr>
+    <tr>
+      <td>1</td>
+      <td>0</td>
+      <td>1</td>
+      <td>\(1 + 0 = 1\)</td>
+    </tr>
+    <tr>
+      <td>1</td>
+      <td>1</td>
+      <td>1</td>
+      <td>\(1 + 1 = 1\)</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>In boolean algebra, since you cannot have 2, adding two numbers will stop at 1.</p>
+
+<h3 id="multiplication">Multiplication</h3>
+<p>Boolean numbers can also be multiplied together.
+This is equivalent to an AND gate.</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>A</th>
+      <th>B</th>
+      <th>Q</th>
+      <th>Algebra</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>\(0 \times 0 = 0\)</td>
+    </tr>
+    <tr>
+      <td>0</td>
+      <td>1</td>
+      <td>0</td>
+      <td>\(0 \times 1 = 0\)</td>
+    </tr>
+    <tr>
+      <td>1</td>
+      <td>0</td>
+      <td>0</td>
+      <td>\(1 \times 0 = 0\)</td>
+    </tr>
+    <tr>
+      <td>1</td>
+      <td>1</td>
+      <td>1</td>
+      <td>\(1 \times 1 = 1\)</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>Note that 1 multiplied by 0 in both decimal and binary algebra is 0.
+Later on, the multiplication symbol will be replaced with a dot.</p>
+
+<h3 id="complement">Complement</h3>
+<p>Boolean numbers can be inverted.
+This is equivalent to a NOT gate.</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>A</th>
+      <th>Q</th>
+      <th>Algebra</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>0</td>
+      <td>1</td>
+      <td>\(\overline 0 = 1\)</td>
+    </tr>
+    <tr>
+      <td>1</td>
+      <td>0</td>
+      <td>\(\overline 1 = 0\)</td>
+    </tr>
+  </tbody>
+</table>
+
+<h3 id="identities">Identities</h3>
+<p>Combining these above algebraic formulae can cause complex equations to arise.
+Sometimes, these needs to be simplified, as reducing the number of gates required saves space, cost and time producing circuits.</p>
+
+<p>Unfortunately, there’s quite a few to remember.</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th>AND form</th>
+      <th>OR form</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Identity</td>
+      <td>\(A.1 = A\)</td>
+      <td>\(A+0 = A\)</td>
+    </tr>
+    <tr>
+      <td>Null (or Dominance) Law</td>
+      <td>\(A.0 = 0\)</td>
+      <td>\(A+1 = 1\)</td>
+    </tr>
+    <tr>
+      <td>Idempotence Law</td>
+      <td>\(A.A = A\)</td>
+      <td>\(A+A = A\)</td>
+    </tr>
+    <tr>
+      <td>Inverse Law</td>
+      <td>\(A.\overline A = 0\)</td>
+      <td>\(A+\overline A = 1\)</td>
+    </tr>
+    <tr>
+      <td>Commutative Law</td>
+      <td>\(A.B = B.A\)</td>
+      <td>\(A+B = B+A\)</td>
+    </tr>
+    <tr>
+      <td>Associative Law</td>
+      <td>\((A.B).C = A.(B.C)\)</td>
+      <td>\((A+B)+C = A+(B+C)\)</td>
+    </tr>
+    <tr>
+      <td>Distributive Law</td>
+      <td>\(A+(B.C) = (A+B).(A+C)\)</td>
+      <td>\(A.(B.C) = (A.B)+(A.C)\)</td>
+    </tr>
+    <tr>
+      <td>Absorption Law</td>
+      <td>\(A.(A+B) = A\)</td>
+      <td>\(A+(A.B) = A\)</td>
+    </tr>
+    <tr>
+      <td>De Morgan’s Law</td>
+      <td>\(\overline{(A.B)} = \overline A + \overline B\)</td>
+      <td>\(\overline{(A+B)} = \overline A . \overline B\)</td>
+    </tr>
+    <tr>
+      <td>Double Complement Law</td>
+      <td> </td>
+      <td>\(\overline{\overline A} = A\)</td>
+    </tr>
+  </tbody>
+</table>
+
+        </article>
+    </main>
+    <footer>
+    <p>
+        <i>Copyright 2017 - 2018, docs.terminal.ink</i>
+    </p>
+    <p>
+        <i>The documentation series is licenced under <a href="/licence">CC-BY-SA-4.0</a> unless specified</i><br>
+        <i>Look at how terrible <a href="https://github.com/Terminal/docs.terminal.ink">the code is</a></i>
+    </p>
+    
+        
+            
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.2/MathJax.js?config=TeX-MML-AM_CHTML"></script>
+            
+        
+    
+</footer>
+
+</body>
+
+</html>

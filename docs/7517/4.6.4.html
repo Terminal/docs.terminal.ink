@@ -47,6 +47,8 @@
                 
                 
                 
+                
+                
                 <a class="default" href="/7517/index.html" title="Index of the AQA A-Level Specification for Computer Science">
                     <li class="option">Home</li>
                 </a>
@@ -86,6 +88,8 @@
                 
                 
                 
+                
+                
                 <h1>Fundamentals of computer systems</h1>
                 
                 
@@ -100,6 +104,14 @@
                 <li class="option selected">
                     <b>4.6.4 Logic Gates</b>
                 </li>
+                
+                
+                
+                
+                
+                <a class="default" href="/7517/4.6.5.html" title="">
+                    <li class="option">4.6.5 Boolean Algebra</li>
+                </a>
                 
                 
                 
@@ -190,7 +202,7 @@ If both inputs are both on, the output will be on.</p>
   <tbody>
     <tr>
       <td><img src="/assets/img/and.svg" alt="An image of an AND gate" /></td>
-      <td>\(A \cap B = Q\)</td>
+      <td>\(A . B = Q\)</td>
     </tr>
   </tbody>
 </table>
@@ -243,7 +255,7 @@ When one or more inputs are on, the output will be on.</p>
   <tbody>
     <tr>
       <td><img src="/assets/img/or.svg" alt="An image of an OR gate" /></td>
-      <td>\(A \cup B = Q\)</td>
+      <td>\(A + B = Q\)</td>
     </tr>
   </tbody>
 </table>
@@ -431,6 +443,154 @@ When one or more inputs are on, the output will be on.</p>
       <td>1</td>
       <td>1</td>
       <td>0</td>
+    </tr>
+  </tbody>
+</table>
+
+<h3 id="half-adder">Half Adder</h3>
+<p>The half adder adds two single binary digits A and B, and outputs the sum and a carry bit.
+The carry bit is used to pass the overflow onto the next digit.</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Diagram</th>
+      <th>Boolean Algebra</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><img src="/assets/img/halfadder.svg" alt="An image of an half adder" /></td>
+      <td>\(A \cap B = C\)<br />\(A \oplus B = S\)</td>
+    </tr>
+  </tbody>
+</table>
+
+<h4 id="truth-table-6">Truth Table</h4>
+
+<table>
+  <thead>
+    <tr>
+      <th>A</th>
+      <th>B</th>
+      <th>\(C_{out}\)</th>
+      <th>S (Sum)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>0</td>
+      <td>1</td>
+      <td>0</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>1</td>
+      <td>0</td>
+      <td>0</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>1</td>
+      <td>1</td>
+      <td>1</td>
+      <td>0</td>
+    </tr>
+  </tbody>
+</table>
+
+<h3 id="full-adder">Full Adder</h3>
+<p>A full adder adds two single binary digits A and B, as well as accounts for bits carried in.</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Diagram</th>
+      <th>Boolean Algebra</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><img src="/assets/img/fulladder.svg" alt="An image of an full adder" /></td>
+      <td>\(A \cap B = C\)<br />\(A \oplus B = S\)</td>
+    </tr>
+  </tbody>
+</table>
+
+<h4 id="truth-table-7">Truth Table</h4>
+
+<table>
+  <thead>
+    <tr>
+      <th>A</th>
+      <th>B</th>
+      <th>\(C_{in}\)</th>
+      <th>\(C_{out}\)</th>
+      <th>S</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>0</td>
+      <td>0</td>
+      <td>1</td>
+      <td>0</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>0</td>
+      <td>1</td>
+      <td>0</td>
+      <td>0</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>0</td>
+      <td>1</td>
+      <td>1</td>
+      <td>1</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>1</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>1</td>
+      <td>0</td>
+      <td>1</td>
+      <td>1</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>1</td>
+      <td>1</td>
+      <td>0</td>
+      <td>1</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>1</td>
+      <td>1</td>
+      <td>1</td>
+      <td>1</td>
+      <td>1</td>
     </tr>
   </tbody>
 </table>
