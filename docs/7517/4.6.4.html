@@ -1,0 +1,414 @@
+<!--
+    docs.terminal.ink
+    Copyright (C) 2018 Terminal.ink
+
+    This file is licenced under the CC-BY-SA-4.0. You should have
+    recieved a copy of the licence with this documentation series.
+    If not, please read a copy here:
+
+    https://creativecommons.org/licenses/by-sa/4.0/
+-->
+<html>
+<head>
+    
+    <title>4.6.4 Logic Gates - Computer Science (AQA 7517 Specification) Help</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="/assets/css/index.css" type="text/css" rel="stylesheet">
+</head>
+
+
+<body>
+    <header>
+    <a class="default" href="/">
+        <h1>Terminal.ink Documentation</h1>
+    </a>
+    <i><b>4.6.4 Logic Gates</b> of Computer Science (AQA 7517 Specification) Help</i>
+</header>
+
+    <main>
+        <nav>
+            <ul>
+                <a class="default" href="/">
+                    <li class="option">All Docs</li>
+                </a>
+                <hr>
+                
+                <h1>Index</h1>
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                <a class="default" href="/7517/index.html" title="Index of the AQA A-Level Specification for Computer Science">
+                    <li class="option">Home</li>
+                </a>
+                
+                
+                
+                
+                <h1>Fundamentals of data representation</h1>
+                
+                
+                
+                
+                <a class="default" href="/7517/4.5.1.html" title="">
+                    <li class="option">4.5.1 Number Systems</li>
+                </a>
+                
+                
+                
+                
+                
+                <a class="default" href="/7517/4.5.2.html" title="">
+                    <li class="option">4.5.2 Number Bases</li>
+                </a>
+                
+                
+                
+                
+                
+                
+                
+                
+                <h1>Fundamentals of computer systems</h1>
+                
+                
+                
+                
+                
+                
+                
+                
+                <li class="option selected">
+                    <b>4.6.4 Logic Gates</b>
+                </li>
+                
+                
+                
+                
+                
+                
+            </ul>
+        </nav>
+        <article>
+            <h1>4.6.4 Logic Gates</h1>
+            <p>Logic Gates are electrical components that are the foundation of all of computing. Computers rely on logic gates made out of transistors to perform actions. These logic gates are based off of boolean algebra, where the only values can be either a <code class="highlighter-rouge">1</code> or a <code class="highlighter-rouge">0</code>, representing an <code class="highlighter-rouge">on</code> or <code class="highlighter-rouge">off</code> state.</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Boolean</th>
+      <th>State</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>1</td>
+      <td>On</td>
+    </tr>
+    <tr>
+      <td>0</td>
+      <td>Off</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>Because the boolean number system has only two digits for counting, conversion is required when converting numbers to and from decimal, our system of counting.</p>
+
+<h2 id="not-gate">NOT Gate</h2>
+<p>A <code class="highlighter-rouge">NOT</code> gate toggles the state of the input.
+If the input is off, the output is on.
+If the input is on, the output is off.</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Diagram</th>
+      <th>Boolean Algebra</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><img src="/assets/img/not.svg" alt="An image of a NOT gate" /></td>
+      <td>\(\overline A\)</td>
+    </tr>
+  </tbody>
+</table>
+
+<h3 id="truth-table">Truth Table</h3>
+
+<table>
+  <thead>
+    <tr>
+      <th>A</th>
+      <th>Q</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>0</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>1</td>
+      <td>0</td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="and-gate">AND Gate</h2>
+<p>An <code class="highlighter-rouge">AND</code> gate checks if both inputs are on.
+If both inputs are both on, the output will be on.</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Diagram</th>
+      <th>Boolean Algebra</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><img src="/assets/img/and.svg" alt="An image of an AND gate" /></td>
+      <td>\(A \cap B = Q\)</td>
+    </tr>
+  </tbody>
+</table>
+
+<h3 id="truth-table-1">Truth Table</h3>
+
+<table>
+  <thead>
+    <tr>
+      <th>A</th>
+      <th>B</th>
+      <th>Q</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>0</td>
+      <td>1</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>1</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>1</td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="or-gate">OR Gate</h2>
+<p>An <code class="highlighter-rouge">OR</code> gate turns on when any input is on.
+When one or more inputs are on, the output will be on.</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Diagram</th>
+      <th>Boolean Algebra</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><img src="/assets/img/or.svg" alt="An image of an OR gate" /></td>
+      <td>\(A \cup B = Q\)</td>
+    </tr>
+  </tbody>
+</table>
+
+<h3 id="truth-table-2">Truth Table</h3>
+
+<table>
+  <thead>
+    <tr>
+      <th>A</th>
+      <th>B</th>
+      <th>Q</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>0</td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>1</td>
+      <td>0</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>1</td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="xor-gate">XOR Gate</h2>
+
+<div class="imgbox">
+	<img src="/assets/img/xor.svg" />
+	<p>XOR Gate</p>
+</div>
+
+<p>\(A \oplus B = Q\)</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>A</th>
+      <th>B</th>
+      <th>Q</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>0</td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>1</td>
+      <td>0</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>1</td>
+      <td>1</td>
+      <td>0</td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="nand-gate">NAND Gate</h2>
+
+<div class="imgbox">
+	<img src="/assets/img/nand.svg" />
+	<p>NAND Gate</p>
+</div>
+
+<p>\(\overline{A \cap B} = Q\)</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>A</th>
+      <th>B</th>
+      <th>Q</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>0</td>
+      <td>0</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>0</td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>1</td>
+      <td>0</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>1</td>
+      <td>1</td>
+      <td>0</td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="nor-gate">NOR Gate</h2>
+
+<div class="imgbox">
+	<img src="/assets/img/nor.svg" />
+	<p>NOR Gate</p>
+</div>
+
+<p>\(\overline{A \cup B} = Q\)</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>A</th>
+      <th>B</th>
+      <th>Q</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>0</td>
+      <td>0</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>0</td>
+      <td>1</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>1</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>1</td>
+      <td>1</td>
+      <td>0</td>
+    </tr>
+  </tbody>
+</table>
+
+        </article>
+    </main>
+    <footer>
+    <p>
+        <i>Copyright 2017 - 2018, docs.terminal.ink</i>
+    </p>
+    <p>
+        <i>The documentation series is licenced under <a href="/licence">CC-BY-SA-4.0</a> unless specified</i><br>
+        <i>Look at how terrible <a href="https://github.com/Terminal/docs.terminal.ink">the code is</a></i>
+    </p>
+    
+        
+            
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.2/MathJax.js?config=TeX-MML-AM_CHTML"></script>
+            
+        
+    
+</footer>
+
+</body>
+
+</html>

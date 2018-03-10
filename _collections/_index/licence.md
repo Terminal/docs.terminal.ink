@@ -13,8 +13,6 @@ description: Documentation
 title: Licence
 ---
 
-# Licence
-
 This documentation series found at [`https://docs.terminal.ink`](/) is licenced under the CC-BY-SA-4.0.
 May all lawyers sip your cup of coffee before reading.
 

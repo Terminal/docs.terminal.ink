@@ -13,7 +13,6 @@ description: Home
 title: cats.terminal.ink
 ---
 
-# cats.terminal.ink
 The Terminal.ink Cats API is a free to use REST based endpoint, which returns random cat images
 
 It is currently under heavy changes, so don't be surprised if this file is suddenly wrong.

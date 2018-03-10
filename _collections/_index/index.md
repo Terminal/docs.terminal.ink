@@ -13,19 +13,20 @@ category: index
 ---
 
 # Terminal.ink Documentation
-## Education
-_Nothing here. Want to make one? Contact us via Discord._
 
 ## Terminal Sites
 - [api.terminal.ink](api)
 <!-- - [cats.terminal.ink](cats) -->
 - [ls.terminal.ink](ls)
 
+## Educational
+- [AQA A-Level 7517 "Revision" Page](7517) _unfinished_
+
 ## Meta
 - [Writing Documentation](create)
 
 ---
 
-## Links
+## External Links
 - [terminal.ink](https://terminal.ink)
 - [Discord](https://discord.gg/DwBCgta)

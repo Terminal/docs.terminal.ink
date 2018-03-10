@@ -10,10 +10,9 @@
 layout: docs
 category: index
 description: Index of the Terminal.ink Bot List documentation
-title: Home
+title: ls.terminal.ink
 ---
 
-# ls.terminal.ink
 [![Build Status](https://travis-ci.org/Terminal/ls.terminal.ink.svg?branch=master)](https://travis-ci.org/Terminal/ls.terminal.ink)
 
 The Terminal.ink Bot List is a repository of bots made by Terminal.ink users

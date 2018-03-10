@@ -1,0 +1,32 @@
+title: Computer Science (AQA 7517 Specification) Help
+categories:
+  - key: index
+    name: Index
+  # - key: "4.1"
+  #   name: Fundamentals of programming
+  # - key: "4.2"
+  #   name: Funamentals of data structures
+  # - key: "4.3"
+  #   name: Fundamentals of algorithms
+  # - key: "4.4"
+  #   name: Theory of computation
+  - key: "4.5"
+    name: Fundamentals of data representation
+  - key: "4.6"
+    name: Fundamentals of computer systems
+  # - key: "4.7"
+  #   name: Fundamentals of computer organisation and architecture
+  # - key: "4.8"
+  #   name: Consequences of uses of computing
+  # - key: "4.9"
+  #   name: Fundamentals of communication and networking
+  # - key: "4.10"
+  #   name: Fundamentals of databases
+  # - key: "4.11"
+  #   name: Big Data
+  # - key: "4.12"
+  #   name: Fundamentals of functional programming
+  # - key: "4.13"
+  #   name: Systematic approach to problem solving
+  # - key: "4.14"
+  #   name: Non-exam assessment

@@ -32,3 +32,5 @@ collections:
     output: true
   api:
     output: true
+  "7517":
+    output: true

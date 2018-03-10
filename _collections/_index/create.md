@@ -13,7 +13,6 @@ description: Index of the Terminal.ink Meta documentation
 title: Writing Documentation
 ---
 
-# Writing Documentation
 To create your own "collection", follow these few steps
 
 0. Fork the repository and clone it
