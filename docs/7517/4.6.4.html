@@ -110,7 +110,9 @@
         </nav>
         <article>
             <h1>4.6.4 Logic Gates</h1>
-            <p>Logic Gates are electrical components that are the foundation of all of computing. Computers rely on logic gates made out of transistors to perform actions. These logic gates are based off of boolean algebra, where the only values can be either a <code class="highlighter-rouge">1</code> or a <code class="highlighter-rouge">0</code>, representing an <code class="highlighter-rouge">on</code> or <code class="highlighter-rouge">off</code> state.</p>
+            <h2 id="4641-logic-gates">4.6.4.1 Logic gates</h2>
+
+<p>Logic Gates are electrical components that are the foundation of all of computing. Computers rely on logic gates made out of transistors to perform actions. These logic gates are based off of boolean algebra, where the only values can be either a <code class="highlighter-rouge">1</code> or a <code class="highlighter-rouge">0</code>, representing an <code class="highlighter-rouge">on</code> or <code class="highlighter-rouge">off</code> state.</p>
 
 <table>
   <thead>
@@ -133,7 +135,7 @@
 
 <p>Because the boolean number system has only two digits for counting, conversion is required when converting numbers to and from decimal, our system of counting.</p>
 
-<h2 id="not-gate">NOT Gate</h2>
+<h3 id="not-gate">NOT Gate</h3>
 <p>A <code class="highlighter-rouge">NOT</code> gate toggles the state of the input.
 If the input is off, the output is on.
 If the input is on, the output is off.</p>
@@ -153,7 +155,7 @@ If the input is on, the output is off.</p>
   </tbody>
 </table>
 
-<h3 id="truth-table">Truth Table</h3>
+<h4 id="truth-table">Truth Table</h4>
 
 <table>
   <thead>
@@ -174,7 +176,7 @@ If the input is on, the output is off.</p>
   </tbody>
 </table>
 
-<h2 id="and-gate">AND Gate</h2>
+<h3 id="and-gate">AND Gate</h3>
 <p>An <code class="highlighter-rouge">AND</code> gate checks if both inputs are on.
 If both inputs are both on, the output will be on.</p>
 
@@ -193,7 +195,7 @@ If both inputs are both on, the output will be on.</p>
   </tbody>
 </table>
 
-<h3 id="truth-table-1">Truth Table</h3>
+<h4 id="truth-table-1">Truth Table</h4>
 
 <table>
   <thead>
@@ -227,7 +229,7 @@ If both inputs are both on, the output will be on.</p>
   </tbody>
 </table>
 
-<h2 id="or-gate">OR Gate</h2>
+<h3 id="or-gate">OR Gate</h3>
 <p>An <code class="highlighter-rouge">OR</code> gate turns on when any input is on.
 When one or more inputs are on, the output will be on.</p>
 
@@ -246,7 +248,7 @@ When one or more inputs are on, the output will be on.</p>
   </tbody>
 </table>
 
-<h3 id="truth-table-2">Truth Table</h3>
+<h4 id="truth-table-2">Truth Table</h4>
 
 <table>
   <thead>
@@ -280,14 +282,24 @@ When one or more inputs are on, the output will be on.</p>
   </tbody>
 </table>
 
-<h2 id="xor-gate">XOR Gate</h2>
+<h3 id="xor-gate">XOR Gate</h3>
 
-<div class="imgbox">
-	<img src="/assets/img/xor.svg" />
-	<p>XOR Gate</p>
-</div>
+<table>
+  <thead>
+    <tr>
+      <th>Diagram</th>
+      <th>Boolean Algebra</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><img src="/assets/img/xor.svg" alt="An image of an XOR gate" /></td>
+      <td>\(A \oplus B = Q\)</td>
+    </tr>
+  </tbody>
+</table>
 
-<p>\(A \oplus B = Q\)</p>
+<h4 id="truth-table-3">Truth Table</h4>
 
 <table>
   <thead>
@@ -321,14 +333,24 @@ When one or more inputs are on, the output will be on.</p>
   </tbody>
 </table>
 
-<h2 id="nand-gate">NAND Gate</h2>
+<h3 id="nand-gate">NAND Gate</h3>
 
-<div class="imgbox">
-	<img src="/assets/img/nand.svg" />
-	<p>NAND Gate</p>
-</div>
+<table>
+  <thead>
+    <tr>
+      <th>Diagram</th>
+      <th>Boolean Algebra</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><img src="/assets/img/nand.svg" alt="An image of an NAND gate" /></td>
+      <td>\(\overline{A \cap B} = Q\)</td>
+    </tr>
+  </tbody>
+</table>
 
-<p>\(\overline{A \cap B} = Q\)</p>
+<h4 id="truth-table-4">Truth Table</h4>
 
 <table>
   <thead>
@@ -362,14 +384,24 @@ When one or more inputs are on, the output will be on.</p>
   </tbody>
 </table>
 
-<h2 id="nor-gate">NOR Gate</h2>
+<h3 id="nor-gate">NOR Gate</h3>
 
-<div class="imgbox">
-	<img src="/assets/img/nor.svg" />
-	<p>NOR Gate</p>
-</div>
+<table>
+  <thead>
+    <tr>
+      <th>Diagram</th>
+      <th>Boolean Algebra</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><img src="/assets/img/nor.svg" alt="An image of an NOR gate" /></td>
+      <td>\(\overline{A \cup B} = Q\)</td>
+    </tr>
+  </tbody>
+</table>
 
-<p>\(\overline{A \cup B} = Q\)</p>
+<h4 id="truth-table-5">Truth Table</h4>
 
 <table>
   <thead>
