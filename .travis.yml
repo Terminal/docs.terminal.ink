@@ -1,6 +1,6 @@
 language: ruby
 rvm:
-  - 2.3.3
+  - 2.3.4
 
 install:
   - bundle install
@@ -8,10 +8,8 @@ install:
 script:
   - jekyll build
 
-before_deploy:
-  - cd docs
-
 deploy:
+  local-dir: docs
   provider: pages
   skip-cleanup: true
   github-token: $GITHUB_TOKEN
