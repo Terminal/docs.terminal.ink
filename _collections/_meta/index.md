@@ -13,4 +13,6 @@ description: Too many layers of meta. Terminal.ink Meta Documentation
 title: docs.terminal.ink
 ---
 
+[![Build Status](https://travis-ci.org/Terminal/docs.terminal.ink.svg?branch=master)](https://travis-ci.org/Terminal/docs.terminal.ink)
+
 Documentation for >terminal_ services, using GitHub Pages

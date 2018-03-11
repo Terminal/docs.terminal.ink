@@ -1,4 +1,4 @@
-# docs.terminal.ink
+# docs.terminal.ink [![Build Status](https://travis-ci.org/Terminal/docs.terminal.ink.svg?branch=master)](https://travis-ci.org/Terminal/docs.terminal.ink)
 Documentation for >terminal_ services, using GitHub Pages
 
 ## Testing
