@@ -1,0 +1,29 @@
+.majik
+    animation: 5s linear infinite hue, 0.75s linear infinite spin, 1s linear infinite flash
+    display: inline-block
+
+@keyframes hue
+    0%
+        filter: hue-rotate(0deg)
+    50%
+        filter: hue-rotate(180deg)
+    100%
+        filter: hue-rotate(360deg)
+
+@keyframes spin
+    0%
+        transform: rotate(0deg)
+    25%
+        transform: rotate(5deg)
+    50%
+        transform: rotate(0deg)
+    75%
+        transform: rotate(-5deg)
+    100%
+        transform: rotate(0deg)
+
+@keyframes flash
+    from
+        font-weight: bold
+    to
+        font-weight: normal

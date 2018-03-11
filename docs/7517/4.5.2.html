@@ -1,0 +1,452 @@
+<!--
+    docs.terminal.ink
+    Copyright (C) 2018 Terminal.ink
+
+    This file is licenced under the CC-BY-SA-4.0. You should have
+    recieved a copy of the licence with this documentation series.
+    If not, please read a copy here:
+
+    https://creativecommons.org/licenses/by-sa/4.0/
+-->
+<html>
+<head>
+    
+    <title>4.5.2 Number Bases - Computer Science (AQA 7517 Specification) Help</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link href="/assets/css/index.css" type="text/css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+
+
+<body>
+    <header>
+    <a class="default" href="/">
+        <h1>Terminal.ink Documentation</h1>
+    </a>
+    <i><b>4.5.2 Number Bases</b> of Computer Science (AQA 7517 Specification) Help</i>
+</header>
+
+    <main>
+        <nav>
+            <ul>
+                <a class="default" href="/">
+                    <li class="option">All Docs</li>
+                </a>
+                <hr>
+                
+                <h1>Index</h1>
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                <a class="default" href="/7517/index.html" title="Index of the AQA A-Level Specification for Computer Science">
+                    <li class="option">Home</li>
+                </a>
+                
+                
+                
+                
+                <h1>Fundamentals of data representation</h1>
+                
+                
+                
+                
+                <a class="default" href="/7517/4.5.1.html" title="">
+                    <li class="option">4.5.1 Number Systems</li>
+                </a>
+                
+                
+                
+                
+                
+                <li class="option selected">
+                    <b>4.5.2 Number Bases</b>
+                </li>
+                
+                
+                
+                
+                
+                <a class="default" href="/7517/4.5.3.html" title="">
+                    <li class="option">4.5.3 Units of information</li>
+                </a>
+                
+                
+                
+                
+                
+                <a class="default" href="/7517/4.5.6.html" title="">
+                    <li class="option">4.5.6 Representing images, sound and other data</li>
+                </a>
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                <h1>Fundamentals of computer systems</h1>
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                <a class="default" href="/7517/4.6.4.html" title="">
+                    <li class="option">4.6.4 Logic Gates</li>
+                </a>
+                
+                
+                
+                
+                
+                <a class="default" href="/7517/4.6.5.html" title="">
+                    <li class="option">4.6.5 Boolean Algebra</li>
+                </a>
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                <h1>Fundamentals of computer organisation and architecture</h1>
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                <a class="default" href="/7517/4.7.4.html" title="">
+                    <li class="option">4.7.4 External hardware devices</li>
+                </a>
+                
+                
+                
+                
+                
+                
+                
+                
+                <h1>Extras and Footnote</h1>
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                <a class="default" href="/7517/answers.html" title="">
+                    <li class="option">Answers</li>
+                </a>
+                
+                
+                
+                
+                
+                
+            </ul>
+        </nav>
+        <article>
+            <h1>4.5.2 Number Bases</h1>
+            <h2 id="4521-number-base">4.5.2.1 Number Base</h2>
+
+<p>Humans and computers are incompatible when they try to count.
+While Humans use Decimal and Unary systems of counting, computers can only interpret Binary.
+This is because computers can only process the presense or an absense of a signal, on or off, 1 or 0.</p>
+
+<h3 id="characters">Characters</h3>
+<p>When writing down numbers, humans (while using base 10) have a choice of ten characters.
+Computers only have a choice of two characters.</p>
+
+<p>Below is a selection of different base systems and their characters.</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Number System</th>
+      <th>Available Characters</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Decimal (base 10)</td>
+      <td>0 1 2 3 4 5 6 7 8 9</td>
+    </tr>
+    <tr>
+      <td>Unary (base 1)</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>Binary (base 2)</td>
+      <td>0 1</td>
+    </tr>
+    <tr>
+      <td>Octal (base 8)</td>
+      <td>0 1 2 3 4 5 6 7</td>
+    </tr>
+    <tr>
+      <td>Hexadecimal (base 16)</td>
+      <td>0 1 2 3 4 5 6 7 8 9 A B C D E F</td>
+    </tr>
+  </tbody>
+</table>
+
+<h3 id="conversions">Conversions</h3>
+
+<table>
+  <thead>
+    <tr>
+      <th>Dec</th>
+      <th>Bin</th>
+      <th>Oct</th>
+      <th>Hex</th>
+      <th>Unary</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>1</td>
+      <td>1</td>
+      <td>1</td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td>10</td>
+      <td>2</td>
+      <td>2</td>
+      <td>11</td>
+    </tr>
+    <tr>
+      <td>3</td>
+      <td>11</td>
+      <td>3</td>
+      <td>3</td>
+      <td>111</td>
+    </tr>
+    <tr>
+      <td>4</td>
+      <td>100</td>
+      <td>4</td>
+      <td>4</td>
+      <td>1111</td>
+    </tr>
+    <tr>
+      <td>5</td>
+      <td>101</td>
+      <td>5</td>
+      <td>5</td>
+      <td>11111</td>
+    </tr>
+    <tr>
+      <td>6</td>
+      <td>110</td>
+      <td>6</td>
+      <td>6</td>
+      <td>111111</td>
+    </tr>
+    <tr>
+      <td>7</td>
+      <td>101</td>
+      <td>7</td>
+      <td>7</td>
+      <td>1111111</td>
+    </tr>
+    <tr>
+      <td>8</td>
+      <td>1000</td>
+      <td>10</td>
+      <td>8</td>
+      <td>11111111</td>
+    </tr>
+    <tr>
+      <td>9</td>
+      <td>1001</td>
+      <td>11</td>
+      <td>9</td>
+      <td>111111111</td>
+    </tr>
+    <tr>
+      <td>10</td>
+      <td>1010</td>
+      <td>12</td>
+      <td>A</td>
+      <td>1111111111</td>
+    </tr>
+    <tr>
+      <td>11</td>
+      <td>1011</td>
+      <td>13</td>
+      <td>B</td>
+      <td>11111111111</td>
+    </tr>
+    <tr>
+      <td>12</td>
+      <td>1100</td>
+      <td>14</td>
+      <td>C</td>
+      <td>111111111111</td>
+    </tr>
+    <tr>
+      <td>13</td>
+      <td>1101</td>
+      <td>15</td>
+      <td>D</td>
+      <td>1111111111111</td>
+    </tr>
+    <tr>
+      <td>14</td>
+      <td>1110</td>
+      <td>16</td>
+      <td>E</td>
+      <td>11111111111111</td>
+    </tr>
+    <tr>
+      <td>15</td>
+      <td>1111</td>
+      <td>17</td>
+      <td>F</td>
+      <td>111111111111111</td>
+    </tr>
+    <tr>
+      <td>16</td>
+      <td>10000</td>
+      <td>20</td>
+      <td>10</td>
+      <td>1111111111111111</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>To easily convert Decimal to Binary, attempt this methodology</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Position</th>
+      <th>\(2^7\)</th>
+      <th>\(2^6\)</th>
+      <th>\(2^5\)</th>
+      <th>\(2^4\)</th>
+      <th>\(2^3\)</th>
+      <th>\(2^2\)</th>
+      <th>\(2^1\)</th>
+      <th>\(2^0\)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Decimal</td>
+      <td>128</td>
+      <td>64</td>
+      <td>32</td>
+      <td>16</td>
+      <td>8</td>
+      <td>4</td>
+      <td>2</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>12</td>
+      <td>No</td>
+      <td>No</td>
+      <td>No</td>
+      <td>No</td>
+      <td>Yes</td>
+      <td>Yes</td>
+      <td>No</td>
+      <td>No</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>Convert simply by subtracting powers of two until they fit.</p>
+
+<p>Converting binary to hexadecimal is equally as easy.
+Split the binary into groups of four and convert each 4 bits into a hex digit.</p>
+
+        </article>
+    </main>
+    <footer>
+    <p>
+        <i>Copyright 2017 - 2018, docs.terminal.ink</i>
+    </p>
+    <p>
+        <i>The documentation series is licenced under <a href="/meta/licence">CC-BY-SA-4.0</a> unless specified</i><br>
+        <i>Look at how terrible <a href="https://github.com/Terminal/docs.terminal.ink">the code is</a></i>
+    </p>
+    
+        
+            
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.2/MathJax.js?config=TeX-MML-AM_CHTML"></script>
+            
+        
+    
+</footer>
+
+</body>
+
+</html>

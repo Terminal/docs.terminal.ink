@@ -1,0 +1,18 @@
+<footer>
+    <p>
+        <i>Copyright 2017 - {{ "now" | date: "%Y"}}, docs.terminal.ink</i>
+    </p>
+    <p>
+        <i>The documentation series is licenced under <a href="/meta/licence">CC-BY-SA-4.0</a> unless specified</i><br>
+        <i>Look at how terrible <a href="https://github.com/Terminal/docs.terminal.ink">the code is</a></i>
+    </p>
+    {% if page.import %}
+        {% for import in page.import %}
+            {% if site.data.import[import] %}
+            <script src="{{ site.data.import[import] }}"></script>
+            {% else %}
+            <p><b>Error in <code>{{ page.path }}</code>:</b> A script <code>{{ import }}</code> was not found. Is it in <code>_data/import.yml</code>?</p>
+            {% endif %}
+        {% endfor %}
+    {% endif %}
+</footer>
