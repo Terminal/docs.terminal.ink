@@ -11,9 +11,9 @@
 <html>
 <head>
     
-    <title>ls.terminal.ink - Terminal.ink Bot List</title>
+    <title>Writing Documentation - Terminal.ink Meta Documentation</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Index of the Terminal.ink Bot List documentation">
+    <meta name="description" content="Index of the Terminal.ink Meta documentation">
     <link href="/assets/css/index.css" type="text/css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 </head>
@@ -24,7 +24,7 @@
     <a class="default" href="/">
         <h1>Terminal.ink Documentation</h1>
     </a>
-    <i><b>ls.terminal.ink</b> of Terminal.ink Bot List</i>
+    <i><b>Writing Documentation</b> of Terminal.ink Meta Documentation</i>
 </header>
 
     <main>
@@ -44,39 +44,29 @@
                 
                 
                 
+                <a class="default" href="/meta/index.html" title="Too many layers of meta. Terminal.ink Meta Documentation">
+                    <li class="option">docs.terminal.ink</li>
+                </a>
+                
+                
+                
+                
+                <h1>Self-referencing Documentation</h1>
+                
+                
+                
+                
+                <a class="default" href="/meta/licence.html" title="Licencing of docs.terminal.ink. Licenced under the CC-BY-SA-4.0.">
+                    <li class="option">Licence</li>
+                </a>
+                
+                
+                
+                
+                
                 <li class="option selected">
-                    <b>ls.terminal.ink</b>
+                    <b>Writing Documentation</b>
                 </li>
-                
-                
-                
-                
-                <h1>API</h1>
-                
-                
-                
-                
-                <a class="default" href="/ls/v1.html" title="Documentation for Version 1 API">
-                    <li class="option">LS API V1</li>
-                </a>
-                
-                
-                
-                
-                
-                
-                
-                
-                <h1>Info</h1>
-                
-                
-                
-                
-                
-                
-                <a class="default" href="/ls/opensource.html" title="Attribution links to resources used">
-                    <li class="option">Open Source attributions</li>
-                </a>
                 
                 
                 
@@ -86,29 +76,20 @@
             </ul>
         </nav>
         <article>
-            <h1>ls.terminal.ink</h1>
-            <p><a href="https://travis-ci.org/Terminal/ls.terminal.ink"><img src="https://travis-ci.org/Terminal/ls.terminal.ink.svg?branch=master" alt="Build Status" /></a></p>
+            <h1>Writing Documentation</h1>
+            <p>To create your own “collection”, follow these few steps</p>
 
-<p>The Terminal.ink Bot List is a repository of bots made by Terminal.ink users</p>
-
-<ul>
-  <li><a href="https://ls.terminal.ink/bot/add" class="ext">Add a bot to the website</a></li>
-  <li><a href="https://ls.terminal.ink/list/queue" class="ext">View the Queue</a></li>
-</ul>
-
-<h2 id="list-api">List API</h2>
-<ul>
-  <li><a href="v1">API V1</a></li>
-</ul>
-
-<h2 id="useful-links">Useful links</h2>
-
-<ul>
-  <li><a href="https://github.com/Terminal/ls.terminal.ink" class="ext">Source Code</a></li>
-  <li><a href="opensource">List of Open Source Materials</a></li>
-</ul>
-
-<p>The Terminal.ink Bot List is licenced under the <a href="https://www.gnu.org/licenses/gpl-3.0.en.html" class="majik">GNU GPL v3</a>.</p>
+<ol>
+  <li>Fork the repository and clone it</li>
+  <li>Make the following edits:
+    <ul>
+      <li>Create a folder in <code class="highlighter-rouge">_collections</code> with your collection name, prefixed with an underscore <code class="highlighter-rouge">_</code> character</li>
+      <li>Create a <code class="highlighter-rouge">.yml</code> file in <code class="highlighter-rouge">_data/type</code>, and add category heading titles</li>
+      <li>Adding the collection name inside the <code class="highlighter-rouge">_config.yml</code> file (and add <code class="highlighter-rouge">output: true</code>)</li>
+    </ul>
+  </li>
+  <li>Create markdown files within the collection folder</li>
+</ol>
 
         </article>
     </main>

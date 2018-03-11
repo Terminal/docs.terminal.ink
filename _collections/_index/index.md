@@ -8,7 +8,7 @@
 #
 # https://creativecommons.org/licenses/by-sa/4.0/
 layout: default
-description: Documentation
+description: docs.terminal.ink is the documentation store for services online at >Terminal_ and other educational media
 category: index
 ---
 
@@ -18,12 +18,10 @@ category: index
 - [api.terminal.ink](api)
 <!-- - [cats.terminal.ink](cats) -->
 - [ls.terminal.ink](ls)
+- [docs.terminal.ink](meta)
 
 ## Educational
 - [AQA A-Level 7517 "Revision" Page](7517) _unfinished_
-
-## Meta
-- [Writing Documentation](create)
 
 ---
 

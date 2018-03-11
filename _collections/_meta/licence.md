@@ -8,8 +8,8 @@
 #
 # https://creativecommons.org/licenses/by-sa/4.0/
 layout: docs
-category: meta
-description: Documentation
+category: docs
+description: Licencing of docs.terminal.ink. Licenced under the CC-BY-SA-4.0.
 title: Licence
 ---
 

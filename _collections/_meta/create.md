@@ -8,7 +8,7 @@
 #
 # https://creativecommons.org/licenses/by-sa/4.0/
 layout: docs
-category: meta
+category: docs
 description: Index of the Terminal.ink Meta documentation
 title: Writing Documentation
 ---

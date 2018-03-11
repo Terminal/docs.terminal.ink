@@ -22,6 +22,8 @@ sass:
 
 collections_dir: _collections
 collections:
+  meta:
+    output: true
   ls:
     output: true
   index:
