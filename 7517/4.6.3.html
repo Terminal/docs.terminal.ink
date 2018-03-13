@@ -11,7 +11,7 @@
 <html>
 <head>
     
-    <title>4.7.4 External hardware devices - Computer Science (AQA 7517 Specification) Help</title>
+    <title>4.6.3 Types of program translator - Computer Science (AQA 7517 Specification) Help</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
     <link href="/assets/css/index.css" type="text/css" rel="stylesheet">
@@ -24,7 +24,7 @@
     <a class="default" href="/">
         <h1>Terminal.ink Documentation</h1>
     </a>
-    <i><b>4.7.4 External hardware devices</b> of Computer Science (AQA 7517 Specification) Help</i>
+    <i><b>4.6.3 Types of program translator</b> of Computer Science (AQA 7517 Specification) Help</i>
 </header>
 
     <main>
@@ -126,9 +126,9 @@
                 
                 
                 
-                <a class="default" href="/7517/4.6.3.html" title="">
-                    <li class="option">4.6.3 Types of program translator</li>
-                </a>
+                <li class="option selected">
+                    <b>4.6.3 Types of program translator</b>
+                </li>
                 
                 
                 
@@ -174,9 +174,9 @@
                 
                 
                 
-                <li class="option selected">
-                    <b>4.7.4 External hardware devices</b>
-                </li>
+                <a class="default" href="/7517/4.7.4.html" title="">
+                    <li class="option">4.7.4 External hardware devices</li>
+                </a>
                 
                 
                 
@@ -218,147 +218,46 @@
             </ul>
         </nav>
         <article>
-            <h1>4.7.4 External hardware devices</h1>
-            <p>Peripherals are hardware which are plugged into your computer. They are controlled by the CPU.
-If the input and output device are integrated into the device, i.e. a smart phone, they are not a peripheral</p>
+            <h1>4.6.3 Types of program translator</h1>
+            <h2 id="4631-types-of-program-translator">4.6.3.1 Types of program translator</h2>
+<p>Most programming languages can be edited wthin a text editor and/or a dedicated IDE.
+However, the text alone is not good enough to be ran.
+Computer programs must be processed either by a <strong>compiler</strong> or an <strong>interpreter</strong> in order to execute the code.</p>
 
-<p>Peripherals connect to the processor hardware through the motherboard.
-External devices will connect via USB, RS-232, Parallel Printer Interface, E-SATA, etc.</p>
+<h3 id="compiler">Compiler</h3>
+<p>A compiler is a computer program which converts code into a binary.
+This binary can be ran multiple times, without recalling the compiler.
+The resultant file from the compiler can only run on the same computer architecture that it was compiled for, and may be incompatible due to architecture, operating system incompatibilities, etc.
+Because a binary is generated, it may take time for the computer program to compile.
+After compilation, running the program will take less time.</p>
 
-<p>Monitors usually connect via VGA, DVI, HDMI or DisplayPort</p>
-
-<h2 id="4741-inputoutput-devices">4.7.4.1 Input/Output devices</h2>
-
-<h3 id="example-input-devices">Example Input Devices</h3>
-<ul>
-  <li>Scanner
-    <ul>
-      <li>Converts 2D physical images into digital images</li>
-    </ul>
-  </li>
-  <li>Light Sensor
-    <ul>
-      <li>Detects the presence and/or intensity of light</li>
-    </ul>
-  </li>
-  <li>Touchpad
-    <ul>
-      <li>Detects movement of a finger on a flat surface to translate the position of a cursor on a computer</li>
-    </ul>
-  </li>
-  <li>Web Cam
-    <ul>
-      <li>Captures images and/or video</li>
-    </ul>
-  </li>
-  <li>Remote Control
-    <ul>
-      <li>An infrared based wireless input device</li>
-    </ul>
-  </li>
-  <li>Keyboard
-    <ul>
-      <li>An input device for inserting text</li>
-    </ul>
-  </li>
-  <li>Video Camera
-    <ul>
-      <li>Captures images and/or video</li>
-    </ul>
-  </li>
-  <li>Graphics Tablet
-    <ul>
-      <li>A pen based device which translate the position of a cursor on a computer, and which may also record the intensity of the input pressure, which may be used to control brush intensity in an image manipulation program</li>
-    </ul>
-  </li>
-</ul>
-
-<h3 id="example-output-devices">Example Output Devices</h3>
-<ul>
-  <li>Laser Printer
-    <ul>
-      <li>Converts digital images and/or text into physical images and/or text by using a heated drum and toner to fuse toner onto a page</li>
-    </ul>
-  </li>
-  <li>Inkjet Printer
-    <ul>
-      <li>Converts digital images and/or text into physical images and/or text using ink</li>
-    </ul>
-  </li>
-  <li>Dot-Matrix Printer
-    <ul>
-      <li>Converts digital text into physical text by pressing onto a special carbon strip to press text onto a page</li>
-    </ul>
-  </li>
-  <li>Speaker</li>
-  <li>Display</li>
-  <li>RGB LED</li>
-  <li>Buzzer</li>
-  <li>Actuator Motor</li>
-  <li>Plotter</li>
-  <li>CRT Monitor</li>
-  <li>3D Printer</li>
-</ul>
-
-<h3 id="cmos">CMOS</h3>
-<p>CMOS stands for Complimentary Metal Oxide Semiconductor.
-A camera sensor is covered with tiny light-sensitive cells.
-The sensor uses a Bayer filter to allow R, G and B colours to be recorded.
-Green cells are twice as commonnly found on the filter, as Green is the most sensitive colour in humans.
-By using a filter, the camera can interpolate the correct colour for individual pixels.</p>
-
-<p>CMOS chips are not 100% sensor. In fact, most only have 50% of the surface as a sensor. To prevent loss of light, CMOS chips use micromirrors to “funnel” light into the sensor portions of the sensor.</p>
-
-<h3 id="embedded-systems">Embedded Systems</h3>
-<p>Embedded systems is a part of a larger piece of equipment which are limited to a certain number of tasks, (unlike general desktop computers).
-For example, these have computers embedded within them:</p>
+<p>Examples of compiled languages include:</p>
 
 <ul>
-  <li>Television</li>
-  <li>Washing Machine</li>
-  <li>DVD Player</li>
-  <li>Digital Camera</li>
-  <li>Mobile Phone</li>
-  <li>Lift</li>
-  <li>Car</li>
-  <li>Router</li>
-  <li>Network Switch</li>
-  <li>Automobile</li>
-  <li>Rugged Handheld</li>
-  <li>POS systems</li>
-  <li>Medical Devices</li>
+  <li>Go</li>
+  <li>C</li>
+  <li>C++</li>
 </ul>
 
-<h2 id="4742-secondary-storage-devices">4.7.4.2 Secondary Storage Devices</h2>
-<h3 id="example-storage-devices">Example storage devices</h3>
+<h3 id="interpreter">Interpreter</h3>
+<p>An interpreter is an intermediate program which reads code line by line, statement by statement and runs the code in real time.
+This allows programmers to edit the code in real time without waiting for recompliation.
+However, interpreted languages have to have the code distributed with the interpreter.
+This may mean the source code could be leaked and stolen by others.
+An interpreter can run code on all compatible clients.</p>
+
+<p>Examples of interpreted languages include:</p>
 
 <ul>
-  <li>Optical
-    <ul>
-      <li>CD</li>
-      <li>DVD</li>
-      <li>Blu-Ray</li>
-    </ul>
-  </li>
-  <li>Magnetic
-    <ul>
-      <li>VHS</li>
-      <li>Hard Drive</li>
-      <li>Backup Tape Drives</li>
-      <li>Floppy Disk</li>
-    </ul>
-  </li>
-  <li>Solid State
-    <ul>
-      <li>EMMC</li>
-      <li>SD</li>
-      <li>SSD</li>
-    </ul>
-  </li>
+  <li>Python</li>
+  <li>JavaScript (Node.js)</li>
 </ul>
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/-KRLWGaIunA" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen=""></iframe>
-<p><em>Video is copyright LinusMediaGroup</em></p>
+<h3 id="java">Java?</h3>
+<p>Java uses a combination of both to merge some of the benefits of each. (While also combining the negatives)</p>
+
+<p>Java uses a compiler to compile java code into java bytecode.
+This bytecode is read by an interpreter (The Java Virtual Machine) which processes the bytecode and executes the instructions.</p>
 
         </article>
     </main>
