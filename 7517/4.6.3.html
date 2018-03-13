@@ -286,7 +286,14 @@ An interpreter can run code on all compatible clients.</p>
 <p>Java uses a combination of both to merge some of the benefits of each. (While also combining the negatives)</p>
 
 <p>Java uses a compiler to compile java code into java bytecode.
-This bytecode is read by an interpreter (The Java Virtual Machine) which processes the bytecode and executes the instructions.</p>
+This bytecode is read by the JVM (The Java Virtual Machine) which processes the bytecode.</p>
+
+<p>Some implementations of the JVM uses <strong>just-in-time</strong> compilation, where the bytecode is converted into instructions the host computer can understand.
+Other implementations may instead use an interpreter to run the code.</p>
+
+<p>Because of the complexity of how Java is processed and executed, there is <a href="https://stackoverflow.com/questions/1326071/is-java-a-compiled-or-an-interpreted-programming-language" class="ext">argument</a> about whether or not it uses one, both, none and/or parts of compilation and intepreting.</p>
+
+<p><img src="/assets/img/jvm.png" alt="&quot;no u&quot;" /></p>
 
 <h1 id="questions">Questions</h1>
 <p><a href="answers#463">Answer</a></p>
