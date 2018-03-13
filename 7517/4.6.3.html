@@ -231,12 +231,27 @@ The resultant file from the compiler can only run on the same computer architect
 Because a binary is generated, it may take time for the computer program to compile.
 After compilation, running the program will take less time.</p>
 
+<p>The programmer’s code sometimes requires extra libraries and object code.
+When this is required, a linker includes these libraries (like ::std) and combines them into the final binary by a <strong>linker</strong>.</p>
+
 <p>Examples of compiled languages include:</p>
 
 <ul>
   <li>Go</li>
   <li>C</li>
   <li>C++</li>
+</ul>
+
+<h4 id="advantages">Advantages</h4>
+<ul>
+  <li>Binaries are faster compared to interpreted code</li>
+</ul>
+
+<h4 id="disadvantages">Disadvantages</h4>
+<ul>
+  <li>Entire code has to be written before it can be tested</li>
+  <li>Errors require recompilation of the binary</li>
+  <li>Binary only runs on that architecture and that operating system</li>
 </ul>
 
 <h3 id="interpreter">Interpreter</h3>
@@ -253,11 +268,33 @@ An interpreter can run code on all compatible clients.</p>
   <li>JavaScript (Node.js)</li>
 </ul>
 
+<h4 id="advantages-1">Advantages</h4>
+<ul>
+  <li>Faster to test</li>
+  <li>Can immediately fix errors (as interpreter runs up to the error)</li>
+  <li>Can run on multiple systems (with the interpreter installed on multiple systems)</li>
+</ul>
+
+<h4 id="disadvantages-1">Disadvantages</h4>
+<ul>
+  <li>Translation takes longer to do</li>
+  <li>Uses more RAM</li>
+  <li>Must be interpreted each time the program is ran</li>
+</ul>
+
 <h3 id="java">Java?</h3>
 <p>Java uses a combination of both to merge some of the benefits of each. (While also combining the negatives)</p>
 
 <p>Java uses a compiler to compile java code into java bytecode.
 This bytecode is read by an interpreter (The Java Virtual Machine) which processes the bytecode and executes the instructions.</p>
+
+<h1 id="questions">Questions</h1>
+<p><a href="answers#463">Answer</a></p>
+
+<ol>
+  <li>Do interpreters produce a binary?</li>
+  <li>Which method is faster to run code and why?</li>
+</ol>
 
         </article>
     </main>
