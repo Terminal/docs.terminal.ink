@@ -15,7 +15,6 @@ import:
 ---
 
 ## 4.5.6 Representing images, sound and other data
-
 [![A line graph](/assets/img/soundgraph.png)](/assets/documents/soundgraph.ods)
 
 1. Convert this analogue signal to an 3 bit depth digital representation
@@ -33,6 +32,13 @@ hhhhhheeeeeeeeemmmmmttttttttttiihhhhha
   - 15 bytes
 4. How many bytes have been saved?
   - 23 bytes
+
+## 4.6.3.1 Types of program translator
+1. Do interpreters produce a binary?
+  - False. They run the code line by line, statement by statement.
+2. Which method is faster to run code and why?
+  - Compiled code is faster compared to interpreted code at the "running" stage, as the program is converted to a binary which a computer understands.
+  - **Do not accept:** Interpreted as you need to wait for the compiler to compile a binary.
 
 ## 4.6.5 Boolean Algebra
 1. Simplify \\(\\overline{(\\overline A+B)}+\\overline{(\\overline A+C)}\\)
