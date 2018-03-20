@@ -27,7 +27,7 @@ require(['vs/editor/editor.main'], function() {
         block.parentNode.replaceChild(div, block)
 
         // Resize and show!
-        div.style.height = editor.getScrollHeight() < 500 ? editor.getScrollHeight() : 500;
+        div.style.height = editor.getScrollHeight() < 500 ? editor.getScrollHeight() + 10 : 500;
         editor.layout();
     });
 });
