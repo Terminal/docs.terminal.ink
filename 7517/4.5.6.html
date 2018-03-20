@@ -60,6 +60,10 @@
                 
                 
                 
+                
+                
+                
+                
                 <a class="default" href="/7517/index.html" title="Index of the AQA A-Level Specification for Computer Science">
                     <li class="option">Home</li>
                 </a>
@@ -67,7 +71,45 @@
                 
                 
                 
+                <h1>Fundamentals of programming</h1>
+                
+                
+                
+                
+                <a class="default" href="/7517/4.1.1.html" title="">
+                    <li class="option">4.1.1 Programming</li>
+                </a>
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
                 <h1>Fundamentals of data representation</h1>
+                
+                
                 
                 
                 
@@ -117,7 +159,13 @@
                 
                 
                 
+                
+                
                 <h1>Fundamentals of computer systems</h1>
+                
+                
+                
+                
                 
                 
                 
@@ -188,6 +236,10 @@
                 
                 
                 
+                
+                
+                
+                
                 <a class="default" href="/7517/4.7.4.html" title="">
                     <li class="option">4.7.4 External hardware devices</li>
                 </a>
@@ -200,6 +252,10 @@
                 
                 
                 <h1>Extras and Footnote</h1>
+                
+                
+                
+                
                 
                 
                 
@@ -357,21 +413,23 @@ This is usually encoded in the file using the Exif metadata standard.</p>
 Because vector graphics are calculated, scaling is possible at any size. Bitmapped images do not scale well</p>
 
 <h3 id="vector">Vector</h3>
-<div class="language-diff highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="gi">+ Low file size
+<div class="to-vscode">
++ Low file size
 + Quality Maintained
-</span><span class="gd">- Only colour of whole lines or shapes chan be changed
+- Only colour of whole lines or shapes chan be changed
 - Complex images are hard to reproduce
 - Thin lines may disappear if shrank to small
 - Small errors can be magnified when scaled
-</span></code></pre></div></div>
+</div>
 
 <h3 id="bitmap">Bitmap</h3>
-<div class="language-diff highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="gi">+ Easy to work with
+<div class="to-vscode">
++ Easy to work with
 + Colour of each dot can be changed
 + Common and widely used
-</span><span class="gd">- Lossy when resolution increased
+- Lossy when resolution increased
 - Takes up a lot of computer backing storage
-</span></code></pre></div></div>
+</div>
 
 <h2 id="4567-digital-representation-of-sound">4.5.6.7 Digital representation of sound</h2>
 <p>Keywords include:</p>
@@ -379,9 +437,10 @@ Because vector graphics are calculated, scaling is possible at any size. Bitmapp
 <p>A sound wave is a change in air pressure, which ears interpret as sound. A microphone records an analog signal, and a DAC converts it into a digital signal.</p>
 
 <p>Advantages of a digital signal</p>
-<div class="language-diff highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="gi">+ Can copy without loss of data
-</span><span class="gd">- Not exactly the original sound
-</span></code></pre></div></div>
+<div class="to-vscode">
++ Can copy without loss of data
+- Not exactly the original sound
+</div>
 
 <h3 id="frequency">Frequency</h3>
 <p>CDs use 44.1 kHz as this is two times 20kHz, the maximum frequency that the human ear can hear. This is to record both the peak and trouch of the wave, so give a close representation of the true sound.</p>
@@ -425,11 +484,12 @@ Because vector graphics are calculated, scaling is possible at any size. Bitmapp
   <li>Is stereo</li>
 </ul>
 
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>591840000 ........ Bits
+<div class="to-vscode">
+591840000 ........ Bits
  73980000 ........ Bytes
        73.98 ..... Megabytes
        70.55282593 Mibibytes
-</code></pre></div></div>
+</div>
 
 <h2 id="4569-compression">4.5.6.9 Compression</h2>
 <ul>
@@ -448,13 +508,14 @@ Streaming HD video requires a high-speed internet connection.
 Without it, the user would experience buffering and regular drops in quality.
 HD video is around 3 Mbps, while SD is 1.5 Mbps</p>
 
-<ul>
-  <li>Uses less internet bandwidth when they are downloaded so transfer speed is quicker</li>
-  <li>Takes up less storage space on the servers of storage providers or on devices</li>
-  <li>Smaller files reduces congestion on the internet, which is good for everyone</li>
-  <li>It makes audio and video files suitable for streaming</li>
-  <li>Email services usually normally have restrictions on the size of the attachment you can send</li>
-</ul>
+<div class="to-vscode">
++ Uses less internet bandwidth when they are downloaded so transfer speed is quicker
++ Takes up less storage space on the servers of storage providers or on devices
++ Smaller files reduces congestion on the internet, which is good for everyone
++ It makes audio and video files suitable for streaming
++ Email services usually normally have restrictions on the size of the attachment you can send
+
+</div>
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/guo8if4Yxhw" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen=""></iframe>
 <p><em>Video is copyright LinusMediaGroup</em></p>
@@ -610,6 +671,14 @@ The sequence of data is stored as a single value and count.</p>
         
             
             <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.2/MathJax.js?config=TeX-MML-AM_CHTML"></script>
+            
+        
+            
+            <script src="https://unpkg.com/monaco-editor@0.11.1/min/vs/loader.js"></script>
+            
+        
+            
+            <script src="/assets/js/monaco-import.js"></script>
             
         
     

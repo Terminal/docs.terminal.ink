@@ -11,7 +11,7 @@
 <html>
 <head>
     
-    <title>4.5.1 Number Systems - Computer Science (AQA 7517 Specification) Help</title>
+    <title>4.1.1 Programming - Computer Science (AQA 7517 Specification) Help</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
     <link href="/assets/css/index.css" type="text/css" rel="stylesheet">
@@ -24,7 +24,7 @@
     <a class="default" href="/">
         <h1>Terminal.ink Documentation</h1>
     </a>
-    <i><b>4.5.1 Number Systems</b> of Computer Science (AQA 7517 Specification) Help</i>
+    <i><b>4.1.1 Programming</b> of Computer Science (AQA 7517 Specification) Help</i>
 </header>
 
     <main>
@@ -76,9 +76,9 @@
                 
                 
                 
-                <a class="default" href="/7517/4.1.1.html" title="">
-                    <li class="option">4.1.1 Programming</li>
-                </a>
+                <li class="option selected">
+                    <b>4.1.1 Programming</b>
+                </li>
                 
                 
                 
@@ -114,9 +114,9 @@
                 
                 
                 
-                <li class="option selected">
-                    <b>4.5.1 Number Systems</b>
-                </li>
+                <a class="default" href="/7517/4.5.1.html" title="">
+                    <li class="option">4.5.1 Number Systems</li>
+                </a>
                 
                 
                 
@@ -290,113 +290,58 @@
             </ul>
         </nav>
         <article>
-            <h1>4.5.1 Number Systems</h1>
-            <h2 id="4511-natural-numbers">4.5.1.1 Natural Numbers</h2>
-<p>A natural number is a countable number.</p>
-
-<p><img src="/assets/img/theindustry.jpeg" alt="The Industry" style="width: 100px" />
-<img src="/assets/img/theindustry.jpeg" alt="The Industry" style="width: 100px" />
-<img src="/assets/img/theindustry.jpeg" alt="The Industry" style="width: 100px" />
-<img src="/assets/img/theindustry.jpeg" alt="The Industry" style="width: 100px" />
-<img src="/assets/img/theindustry.jpeg" alt="The Industry" style="width: 100px" /></p>
-
-<p>In this image, there are five images of “the industry”.
-Note that:</p>
-
-<ul>
-  <li>You cannot have a negative number of industries</li>
-  <li>You cannot have half an industry</li>
-</ul>
-
-<p>The set of numbers, \(\{0, 1, 2, 3, …\}\) is represented by \(\mathbb{N}^0\) or \(\mathbb{N}_{0}\)</p>
-
-<p>Sometimes, 0 is not included. This set, \(\{1, 2, 3, 4, …\}\) is represented by \(\mathbb{N}^*\), \(\mathbb{N}^+\), \(\mathbb{N}_{1}\) or \(\mathbb{N}_{&gt;0}\)</p>
-
-<h2 id="4512-integer-numbers">4.5.1.2 Integer Numbers</h2>
-<p>An integer number is a number that represents a whole number of things.</p>
-
-<p>\(\mathbb{Z} = \{…, -3, -2, -1, 0, 1, 2, 3, …\}\)</p>
-
-<h2 id="4513-rational-numbers">4.5.1.3 Rational Numbers</h2>
-<p>A rational number is a number which can be represented as a fraction of integers.</p>
+            <h1>4.1.1 Programming</h1>
+            <h2 id="4111-data-types">4.1.1.1 Data types</h2>
+<p>A data type is a “type” of data that data can be.
+You will need to understand what the following data types are.</p>
 
 <table>
   <thead>
     <tr>
-      <th>Number</th>
-      <th>Rational?</th>
-      <th>Why</th>
+      <th>Type</th>
+      <th>Info</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td>\(\pi\)</td>
-      <td>No</td>
-      <td>\(\pi\) cannot be written as a fraction</td>
+      <td>Integer</td>
+      <td><a href="4.5.1#4512-integer-numbers">Stores a whole number</a></td>
     </tr>
     <tr>
-      <td>\(\sqrt{2}\)</td>
-      <td>No</td>
-      <td>\(\sqrt{2}\) cannot be written as a fraction</td>
+      <td>Real/Float</td>
+      <td><a href="4.5.1#4515-real-numbers">Stores a real number</a></td>
     </tr>
     <tr>
-      <td>\(7\)</td>
-      <td>Yes</td>
-      <td>7 can be written as \(7\over1\). All integer numbers are therefore also rational numbers</td>
+      <td>Boolean</td>
+      <td>Stores <code class="highlighter-rouge">TRUE</code> or <code class="highlighter-rouge">FALSE</code></td>
     </tr>
     <tr>
-      <td>\(\sqrt{-1}\)</td>
-      <td>No</td>
-      <td>\(\sqrt{-1} = i\), and complex numbers cannot be written with integers.</td>
+      <td>Character</td>
+      <td>Stores a single character</td>
+    </tr>
+    <tr>
+      <td>String</td>
+      <td>Stores text. In some languages, this is stored as an array of characters</td>
+    </tr>
+    <tr>
+      <td>Date/Time</td>
+      <td>Stores a date and time</td>
+    </tr>
+    <tr>
+      <td>Pointer/Reference</td>
+      <td>Stores a memory location</td>
+    </tr>
+    <tr>
+      <td>Records</td>
+      <td>A collection of data, which can be comprised of many different data types. Can be compared to a row in a database.</td>
+    </tr>
+    <tr>
+      <td>Arrays</td>
+      <td>A “list” of the same data type</td>
     </tr>
   </tbody>
 </table>
 
-<h2 id="4515-real-numbers">4.5.1.5 Real Numbers</h2>
-<p>Real numbers are numbers which can be represented as an integer number, a rational or an irrational number.</p>
-
-<p>One may consider a real number as a “real world quantity”.
-The set of numbers is represented as \(\mathbb{R}\)</p>
-
-<table>
-  <thead>
-    <tr>
-      <th>Number</th>
-      <th>Rational?</th>
-      <th>Why</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>\(\pi\)</td>
-      <td>Yes</td>
-      <td>\(\pi\) can be found in the real world. Tasty.</td>
-    </tr>
-    <tr>
-      <td>\(\sqrt{2}\)</td>
-      <td>Yes</td>
-      <td>It is possible to cut a length \(\sqrt{2}\).</td>
-    </tr>
-    <tr>
-      <td>\(7\)</td>
-      <td>Yes</td>
-      <td>You can count seven objects.</td>
-    </tr>
-    <tr>
-      <td>\(\sqrt{-1}\)</td>
-      <td>No</td>
-      <td>You cannot count a complex number.</td>
-    </tr>
-  </tbody>
-</table>
-
-<h2 id="4516-ordinal-numbers">4.5.1.6 Ordinal Numbers</h2>
-<p>An ordinal number is a number that can be used to describe a position within a set.</p>
-
-<p>In the set \(S = \{“a”, “b”, “c”, “d”\}\), “a” would be the 1st letter in the one indexed set.</p>
-
-<h2 id="4517-counting-and-measurement">4.5.1.7 Counting and measurement</h2>
-<p>Natural numbers are for counting. Real numbers can be used for measurement.</p>
 
         </article>
     </main>
@@ -408,12 +353,6 @@ The set of numbers is represented as \(\mathbb{R}\)</p>
         <i>The documentation series is licenced under <a href="/meta/licence">CC-BY-SA-4.0</a> unless specified</i><br>
         <i>Look at how terrible <a href="https://github.com/Terminal/docs.terminal.ink">the code is</a></i>
     </p>
-    
-        
-            
-            <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.2/MathJax.js?config=TeX-MML-AM_CHTML"></script>
-            
-        
     
 </footer>
 
