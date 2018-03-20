@@ -28,6 +28,10 @@ hhhhhheeeeeeeeemmmmmttttttttttiihhhhha
   - 38 bytes
 2. What is the RLE encoded string for this string?
   - `6h9e5m10t2i5h1a`
+    - If there must always be a number
+  - `6h9e5m10t2i5ha`
+    - If the 5 in 5h does not apply to the a
+    - `5(h) + a`, not `5(ha)`
 3. How many bytes are used after encoding?
   - 15 bytes
 4. How many bytes have been saved?
