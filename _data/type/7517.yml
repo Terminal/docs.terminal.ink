@@ -2,8 +2,8 @@ title: Computer Science (AQA 7517 Specification) Help
 categories:
   - key: index
     name: Index
-  # - key: "4.1"
-  #   name: Fundamentals of programming
+  - key: "4.1"
+    name: Fundamentals of programming
   # - key: "4.2"
   #   name: Funamentals of data structures
   # - key: "4.3"
