@@ -314,7 +314,37 @@ Without hardware, software is next to useless.</p>
 
 <p>Only with both, can the potential be fully realised.</p>
 
-<h3 id="software">Software</h3>
+<h3 id="what-to-consider-when-buying-new-software">What to consider when buying new software?</h3>
+<ul>
+  <li>What sort of tasks will the software be used for?</li>
+  <li>How much does the software cost and how much money is available to buy it?</li>
+  <li>What operating system does the software need? Software will only work on the operating system it was designed for</li>
+  <li>What are the minimum system requirements for the software?
+    <ul>
+      <li>Every application package has a minimum set of hardware requirements such as how much hard disk space and memory are needed</li>
+    </ul>
+  </li>
+  <li>Will the software be used on a single computer or on a network?
+    <ul>
+      <li>If the software is going to be used on a network, a special version of it may be needed</li>
+    </ul>
+  </li>
+  <li>How much support is available for users?
+    <ul>
+      <li>Online help</li>
+      <li>Telephone support</li>
+      <li>Internet Sites</li>
+      <li>Printed Manuals</li>
+    </ul>
+  </li>
+  <li>How easy is it to install?
+    <ul>
+      <li>Can an ordinary person run this or will an IT expert be needed to do it?</li>
+    </ul>
+  </li>
+</ul>
+
+<h2 id="4612-classification-of-software">4.6.1.2 Classification of software</h2>
 <p>There are two types of software</p>
 
 <ul>
@@ -325,8 +355,10 @@ Without hardware, software is next to useless.</p>
 <p>System software is the operating system, utility programs and drivers.
 It is effectively the ‘software platform’ for application software.</p>
 
-<p>Application software is our “every day” software such as a word processing program, graphics maniplulation programs and web browsers.
-Application software runs ‘on top’ of the system software that supports it.
+<p>Application software is our “every day” software such as a word processing program, graphics maniplulation programs and web browsers.</p>
+
+<h3 id="application-software">Application Software</h3>
+<p>Application software runs ‘on top’ of the system software that supports it.
 For example, a game may use OpenGL to send instructions to the display drivers to display an image.
 Types of application software include:</p>
 
@@ -361,7 +393,98 @@ Types of application software include:</p>
   </li>
 </ul>
 
-<h2 id="4612-classification-of-software">4.6.1.2 Classification of software</h2>
+<h3 id="system-software">System Software</h3>
+<p>There are many types of system software</p>
+
+<ul>
+  <li>Operating System
+    <ul>
+      <li>User interface</li>
+      <li>Kernel</li>
+      <li>Device Drivers</li>
+      <li>System Utilities</li>
+    </ul>
+  </li>
+</ul>
+
+<h4 id="operating-system">Operating System</h4>
+<p>The operating system provides an interface between the user and the hardware.
+They are said to provide “a virtual machine” which hides the complexities of the hardware from the user.
+The user doesn’t need to understand where about on the disk a file is being saved to. Just that they have clicked the <code class="highlighter-rouge">save</code> button. The OS does the rest.</p>
+
+<p>Operating systems run some of these tasks:</p>
+
+<ul>
+  <li>Interface
+    <ul>
+      <li>Provides a user interface so it is easy to interact with the computer</li>
+    </ul>
+  </li>
+  <li>Manages the CPU
+    <ul>
+      <li>Runs applications and executes and cancels processes</li>
+    </ul>
+  </li>
+  <li>Multi-tasks
+    <ul>
+      <li>Allows multiple applications to run simultaneously</li>
+    </ul>
+  </li>
+  <li>Manages Memory
+    <ul>
+      <li>Transfers programs into and out of memory</li>
+      <li>Allocates free space between programs</li>
+      <li>Manages virtual memory</li>
+    </ul>
+  </li>
+  <li>Manages peripherals
+    <ul>
+      <li>Opens, closes and writes to peripheral devices such as external storage</li>
+    </ul>
+  </li>
+  <li>Organises
+    <ul>
+      <li>Creates a file system to organise files and directories</li>
+    </ul>
+  </li>
+  <li>Security
+    <ul>
+      <li>Provides security through user accounts and passwords</li>
+    </ul>
+  </li>
+  <li>Utilities
+    <ul>
+      <li>Provides tools for managing and organising hardware</li>
+    </ul>
+  </li>
+</ul>
+
+<h5 id="kernel">Kernel</h5>
+<p>The kernel is a computer program that is the core of a computer’s operating system, with complete control over everything in the system.
+It is the first program loaded on start-up.
+It handles the rest of start-up as well as IO requests from software, translating them into data-processing instructions for the Central Processing Unit. It handles memory and peripherals like keyboards, monitors, printers, speakers.</p>
+
+<h5 id="memory-manager">Memory Manager</h5>
+<p>The OS allocates memory between the different programs that are open at the same time.
+Programmers and users do not need to know where in memory data is held - It is the purpose of the operating system to do this.</p>
+
+<p>The memory manager gives each program a private memory area in which to run
+It is also responsible for moving programs between RAM and virtual memory.</p>
+
+<h5 id="managing-cpu-time">Managing CPU time</h5>
+<p>The CPU may only have 1 core. In order to allow multi-tasking, the OS shares time between processes to create the illusion of multi-tasking</p>
+
+<h5 id="managing-the-cpu">Managing the CPU</h5>
+<p>The OS is used to run programs by clicking on an icon, selecting the program from a menu, or typing in an instruction in the command line.
+When the OS runs a piece of software, it has to find the program files on the storage device, load them into the main memory, and instruct the CPU to start executing the program from the beginning.
+In each case, the OS performs the same sequence of steps:</p>
+
+<ol>
+  <li>The program code is found on the storage device</li>
+  <li>A section of RAM is reserved for the program and space is allocated for the programs data</li>
+  <li>The program code is copied from storage into the reserved space in the memory</li>
+  <li>The CPU program counter is set to the memory location of the first instruction in the program, and execution begins</li>
+</ol>
 
 <h1 id="questions">Questions</h1>
 <ol>
