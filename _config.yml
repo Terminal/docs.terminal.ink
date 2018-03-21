@@ -35,3 +35,5 @@ collections:
     output: true
   "7517":
     output: true
+  blog:
+    output: true
