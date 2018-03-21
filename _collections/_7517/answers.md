@@ -43,13 +43,35 @@ hhhhhheeeeeeeeemmmmmttttttttttiihhhhha
 2. Explain what is meant by application software
   - Application software is "every day" software that is not part of system software, such as word processing software, image manipulation software and web browsers.
 3. What is general purpose software and discuss the pros and cons associated to it
-  - General purpose application software is software that is designed to perform multiple "general" tasks around the same category, such as a word processing software being able to make emails, letters, mail merge and more.
+  - General purpose application software is software that is designed to perform multiple "general" tasks around a "general" category, such as a word processing software being able to make emails, letters, mail merge and more.
   - Advantages
-    - Relatively cheap
-    - 
+    - It is relatively cheap
+    - Readily available
+    - Great support
+    - Less bugs as more people have tested the software
+  - Disadvantages
+    - May not be specific enough
+    - May be more expensive in the long term, if subscription based
+    - Can't fix yourself
 4. What is special purpose application software and discuss the pros and cons associated to it
-  - Special purpose application software is software that
+  - Special purpose application software is software that is designed to perform a range of tasks in a single category, such as student register programs.
+  - Advantages
+    - Built for purpose
+    - Has less unnecessary bulk that is not required for the task
+  - Disadvantages
+    - More expensive
+    - May need training, as the software is uncommon
+    - More bugs as less people have tested the software
 5. What is bespoke application software and discuss the pros and cons associated to it
+  - Bespoke application software is software built for a specific person and/or business for only the required task, such as a [Discord Bot List](https://ls.terminal.ink/) (_cross promo_)
+  - Advantages
+    - Built for purpose
+    - Can be designed the way the person and/or business likes it to
+      - Can include "House Style" colours and/or design
+    - Can quickly remove bugs that may be included, as the time taken to contact developers is decreased
+  - Disadvantages
+    - Most expensive to develop and deploy
+    - Will need training, as new employees will have never seen the software before
 6. Complete the attributes column of the table below
 
 Type                           | Use                                                                                                               | Attributes                                                                                                                                                                                                                                                         | Why this type of software is more appropriate for use specified compared to the alternatives
