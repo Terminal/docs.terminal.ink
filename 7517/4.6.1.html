@@ -486,6 +486,63 @@ In each case, the OS performs the same sequence of steps:</p>
   <li>The CPU program counter is set to the memory location of the first instruction in the program, and execution begins</li>
 </ol>
 
+<h5 id="multitasking">Multitasking</h5>
+<p>Multi-tasking allows the user to perform multiple computer tasks simultaneously, via scheduling the priority of processes.
+By giving the processor a small time slice for each task, this means all tasks appear to work simultaneously.
+To the user, it appears that we can multitask.
+In reality, resources such as memory and the processor are being shared between tasks.</p>
+
+<p>There are different types of scheduling</p>
+<ul>
+  <li>Round robin</li>
+  <li>First Come First Served</li>
+  <li>Shortest Job First</li>
+  <li>Shortest time remaining</li>
+  <li>Multi-level</li>
+</ul>
+
+<p>The scheduler ensures that the computer:</p>
+
+<ul>
+  <li>Processes as many tasks as possible in a given time</li>
+  <li>Makex maximum use of the CPU time</li>
+  <li>It will try to minimise latency between the action and the reaction</li>
+  <li>Makes use of resources</li>
+  <li>Can prioritise jobs</li>
+  <li>No task is left uncompleted for too long</li>
+  <li>Can alter priorities</li>
+</ul>
+
+<p>The scheduler is part of the operating system within the kernel.</p>
+
+<h5 id="multi-user-operating-systems">Multi-user Operating Systems</h5>
+<p>A multi-user operating system allows multiple clients to access a more powerful computer via a network.
+This may be via a thin client.
+The thin client only acts as a terminal to access the larger computer.</p>
+
+<p>Multi-user operating systems:</p>
+
+<ul>
+  <li>Can allocate resources between users</li>
+  <li>Can give each user a workspace</li>
+  <li>Works out how to efficiently distribute CPU time between users</li>
+  <li>Allows for updates in software and security updates to be easily updated on a single computer</li>
+</ul>
+
+<h5 id="distributed-operating-systems">Distributed Operating Systems</h5>
+<p>A distributed operating system is an operating system that controls multiple computers simultaneously to perform a single task.
+Each computer contains it’s own OS, and a group of computers are a ‘cluster’.</p>
+
+<p>One use of such an operating system is for rendering video.
+A ficticious media company may use such an operating system to render a video in a shorter time span, as the workload is distributed.</p>
+
+<h5 id="real-time-operating-systems-rtos">Real Time Operating Systems (RTOS)</h5>
+<p>A real time operating system is an operating system which handles data in real time.
+For example, a set of traffic lights will need an RTOS to handle when a pedestrian presses the button.</p>
+
+<p>Such an interruption is called an interrupt.
+When multiple interrupts occur simultaneously, the interrupts can be prioritised.</p>
+
 <h1 id="questions">Questions</h1>
 <ol>
   <li>Explain what is meant by system software</li>
