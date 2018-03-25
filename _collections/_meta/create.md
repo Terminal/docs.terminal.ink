@@ -17,7 +17,7 @@ To create your own "collection", follow these few steps
 
 0. Fork the repository and clone it
 0. Make the following edits:
-    - Create a folder in `_collections` with your collection name, prefixed with an underscore `_` character
-    - Create a `.yml` file in `_data/type`, and add category heading titles
-    - Adding the collection name inside the `_config.yml` file (and add `output: true`)
+  - Create a folder in `_collections` with your collection name, prefixed with an underscore `_` character
+  - Create a `.yml` file in `_data/type`, and add category heading titles
+  - Adding the collection name inside the `_config.yml` file (and add `output: true`)
 0. Create markdown files within the collection folder
