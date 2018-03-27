@@ -20,6 +20,7 @@ require(['vs/editor/editor.main'], function() {
         const editor = monaco.editor.create(div, {
             value: block.textContent.trim(),
             language: block.dataset.language || null,
+            wordWrap: block.dataset.wordWrap || null,
             scrollBeyondLastLine: false
         });
 
