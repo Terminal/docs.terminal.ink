@@ -23,6 +23,9 @@ category: index
 ## Educational
 - [AQA A-Level 7517 "Revision" Page](7517) _unfinished_
 
+## Non-educational
+- [LinusTechTips Advertising](linus)
+
 ---
 
 ## External Links

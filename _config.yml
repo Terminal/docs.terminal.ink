@@ -37,3 +37,5 @@ collections:
     output: true
   blog:
     output: true
+  linus:
+    output: true
