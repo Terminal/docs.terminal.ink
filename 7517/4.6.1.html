@@ -354,11 +354,113 @@ This will need to be processed at the end of the month, as customers could purch
 
 <p>Batch processing is different to real time processing.</p>
 
-<h4 id="online-operating-system">Online Operating System</h4>
+<h5 id="online-operating-system">Online Operating System</h5>
 <p>An online operating system is an operating system that requires the use of online software.
 Google Chrome’s ChromeOS is such an example.</p>
 
 <p>Programs are not stored locally, but are instead found online.</p>
+
+<h5 id="peripheral-management">Peripheral Management</h5>
+<p>Operating systems manage the way in which hardware interacts with the software
+A peripheral is a piece of hardware that is not connected directly to the CPU, such as a keyboard, a mouse, a HDD, etc.
+An OS manages all of these peripherals.</p>
+
+<p>On Linux, one may use <code class="highlighter-rouge">lspci</code> and <code class="highlighter-rouge">lsusb</code> to view some of the peripheral devices connected to the PCI lanes and the USB bus.</p>
+
+<h5 id="drivers">Drivers</h5>
+<p>Drivers are a piece of software used to control a piece of hardware.
+Drivers allow a peipheral device to be connected to a computer and it be used by an Operating System.</p>
+<ul>
+  <li>You may get graphics cards, mouse, sound card, NIC, printers, camera, etc.</li>
+  <li>Drivers are OS specific, and are regularly updated by companies</li>
+</ul>
+
+<h5 id="file-management">File Management</h5>
+<p>Like memory management, the Operating System must identify where files are stored for long time storage on the storage medium.
+The user does not need to know the track, sector and/or surface address, but the Operating System does in order to accurately locate a file on the hard drive.</p>
+
+<h5 id="permissions">Permissions</h5>
+<p>The Operating System also keeps permissions, which keeps the computer and files stored on it safe.
+Each user is given certain permissions to perform actions.</p>
+
+<p>A student named <code class="highlighter-rouge">Alex</code> may have their user home directory with <code class="highlighter-rouge">alex:student</code> permissions.
+All teachers will be able to read the <code class="highlighter-rouge">/home/alex</code> directory, while other students cannot.</p>
+
+<p>Examples of the most typical permissions include:</p>
+
+<ul>
+  <li>Read</li>
+  <li>Write</li>
+  <li>Execute: <code class="highlighter-rouge">chmod +x file.sh</code></li>
+</ul>
+
+<h5 id="user-interface">User Interface</h5>
+<p>A user interface is the method of controlling a computer.</p>
+
+<h6 id="command-line-interface">Command Line Interface</h6>
+<p>Text Based</p>
+
+<p>Examples include:</p>
+<ul>
+  <li>DOS</li>
+  <li>Windows Command Prompt</li>
+  <li>GNU Bash</li>
+</ul>
+
+<div class="to-vscode">
++ Much more powerful
++ Uses less RAM
++ Does not use much processing to draw the graphics
++ Low resolutions supported
++ Heavily documented (with `man` command on Linux, or `/?`, `-?`, `--help` flags)
+- Can be confusing
+- There are a lot of commands to remember.
+- Commands must be typed correctly
+- Mistyping will require hours of arrow button pressing fun
+</div>
+
+<h6 id="graphical-user-interface">Graphical User Interface</h6>
+<p>Contains windows, icons, menus and pointers (WIMP)</p>
+
+<p>Examples include:</p>
+<ul>
+  <li>Microsoft Windows</li>
+  <li>KDE Plasma 5</li>
+  <li>GNOME 3</li>
+  <li>Unity</li>
+</ul>
+
+<div class="to-vscode">
++ A WIMP interface is easy to interact with
++ No complicated commands to remember
++ Icons can represent what an action may perform
+- Requires more processing power to render graphics instead of text
+</div>
+
+<h6 id="menu-driven-interface">Menu Driven Interface</h6>
+<p>A menu driven interface is an interface designed with a hierachy of menus.</p>
+
+<div class="to-vscode">
++ Extemely easy to use
++ No commands to learn
++ Menu interfaces can be visual or spoken
++ Menus are labelled with intuitive commands
++ Low processing power required
+- May have heavily nested menus and hard to navigate
+- May be hard to use if designed badly
+</div>
+
+<h6 id="speech-interface">Speech Interface</h6>
+<p>A speech driven interface which recognises what the user says, and performs an action based on the input.</p>
+
+<div class="to-vscode">
++ No user training required
++ Flexible
++ Remote input method
++ Suitable for handicapped people
+- Unreliable
+- Requires voice recognition software, which is hard to program
+</div>
 
 <h1 id="questions">Questions</h1>
 <ol>
