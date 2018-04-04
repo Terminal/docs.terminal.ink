@@ -10,28 +10,27 @@ import:
   - monaco-import
 ---
 
-<div class="to-vscode" data-language="markdown" data-word-wrap="on">
-# Berkel
+## Berkel
 So today we have recieved a giant package in the mail, and it's huge and it's addressed to Channel Super Fun
 Freaking heavy man holy crap
 
-# Luke
+## Luke
 How did they even get this thing
 
-# Berkel
+## Berkel
 Ewwww
 
 So we've played with the Anki, I think it's the Anki Overdrive, and it was pretty fun, it was like a little Bluetooth race track
 
-# Taran
+## Taran
 You set up the track and like each car has a weapon and you shoot at people, I guess it's kind of like Mario Kart...
 
-# Berkel
+## Berkel
 But this looks like they've sent a lot more pieces.
 What the hell? Look!
 _Dennis is found stuck inside the box_
 
-# Dennis
+## Dennis
 _oh my god_
 
 I'm back
@@ -39,51 +38,50 @@ I'm back
 **airhorn**
 **The Channel Super Fun intro plays**
 
-# Berkel
+## Berkel
 See ya
 
-# Dennis
+## Dennis
 Okay okay I'm going home
 
-# Berkel
+## Berkel
 Nice knowing you
 
-# Dennis
+## Dennis
 _oh god_
 
-# Berkel
+## Berkel
 Bye bye!
 You can stay for the game and then we'll ship you back after
 
-# Dennis
+## Dennis
 _aaa_
 _woah oah oaah_
 
 **A pile of Anki Overdrive track pieces in their packaging falls to the ground, box by box**
 
-# Berkel
+## Berkel
 Last time we made the little track in the workshop
 What... what do we want to do this time?
 We've got a tonne of pieces.
 
-# Taran
+## Taran
 We want to make the biggest track we possibly can.
 
-# Berkel
+## Berkel
 What would you call that track?
 
-# Taran
+## Taran
 _i dunno_
 
 **In slow motion**
 m e g a t r a c k?
 
-# Berkel
+## Berkel
 What do you think? Megatrack?
 
-# Dennis
+## Dennis
 I don't know.
 I just got back on my shipment.
 
 ...
-</div>
