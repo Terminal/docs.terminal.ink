@@ -20,31 +20,34 @@
 
 <body>
   <header>
-  <a class="default" href="/">
+  <i onclick="toggleNav()">Menu!</i>
+  <a href="/">
     <h1>Terminal.ink Documentation</h1>
   </a>
-  <i><b>Writing Documentation</b> of Terminal.ink Meta Documentation</i>
 </header>
 
+  <div id="sidedarken" onclick="toggleNav()"></div>
+<div id="sidenav">
+  <ul>
+    <li>
+      <h2>Terminal.ink</h2>
+    </li>
+    <a class="default" href="/">
+      <li class="option">Back to homepage</li>
+    </a>
+    <hr>
+    <h5>Index</h5><a class="default" href="/meta/index.html" title="Too many layers of meta. Terminal.ink Meta Documentation">
+      <li class="option">docs.terminal.ink</li>
+    </a>
+    <h5>Self-referencing Documentation</h5><a class="default" href="/meta/licence.html" title="Licencing of docs.terminal.ink. Licenced under the CC-BY-SA-4.0.">
+      <li class="option">Licence</li>
+    </a><li class="option selected">
+      <b>Writing Documentation</b>
+    </li>
+  </ul>
+</div>
+
   <main>
-    <nav>
-      <ul>
-        <a class="default" href="/">
-          <li class="option">All Docs</li>
-        </a>
-        <hr>
-        <h1>Index</h1>
-        <a class="default" href="/meta/index.html" title="Too many layers of meta. Terminal.ink Meta Documentation">
-          <li class="option">docs.terminal.ink</li>
-        </a>
-        <h1>Self-referencing Documentation</h1>
-        <a class="default" href="/meta/licence.html" title="Licencing of docs.terminal.ink. Licenced under the CC-BY-SA-4.0.">
-          <li class="option">Licence</li>
-        </a><li class="option selected">
-          <b>Writing Documentation</b>
-        </li>
-      </ul>
-    </nav>
     <article>
       <h1>Writing Documentation</h1>
       <p>To create your own “collection”, follow these few steps</p>
@@ -62,18 +65,19 @@
 </ol>
 
     </article>
-  </main>
-  <footer>
+    <footer>
   <p>
       <i>Copyright 2017 - 2018, docs.terminal.ink</i>
   </p>
   <p>
     <i>The documentation series is licenced under <a href="/meta/licence">CC-BY-SA-4.0</a> unless specified</i><br>
-    <i>Look at how terrible <a href="https://github.com/Terminal/docs.terminal.ink">the code is</a></i>
+    <i>Look at how terrible <a href="https://github.com/Terminal/docs.terminal.ink">the code is</a>, especially <a href="https://github.com/Terminal/docs.terminal.ink/blob/master/_collections/_meta/create.md">this one</a></i>
   </p>
   
+  <script src="/assets/js/nav.js"></script>
 </footer>
 
+  </main>
 </body>
 
 </html>
