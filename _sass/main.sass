@@ -1,32 +1,44 @@
 @import divs
 @import majik
+@import sidenav
+@import scrollbar
 
 body
-    font-family: "Noto Sans", "Roboto", "Ubuntu", "Arial", sans-serif
-    padding: 0px
-    margin: 0px
-    display: flex
-    flex-direction: column
+  font-family: "Noto Sans", "Roboto", "Ubuntu", "Arial", sans-serif
+  padding: 0px
+  margin: 0px
+  background-color: #1f1f1f
+  color: #eeeeee
 
 code
-    font-family: "Roboto Mono", "Noto Mono", "Ubuntu Mono", "Courier", monospace
+  font-family: "Roboto Mono", "Noto Mono", "Ubuntu Mono", "Courier", monospace
 
 .default
-    color: inherit
-    text-decoration: none
+  color: inherit
+  text-decoration: none
 
 // Tables
 table
-    border-collapse: collapse
-th, td
+  border-collapse: collapse
+  th, td
     padding-left: 1em
     padding-right: 1em
-th
+  th
     text-align: left
-td
+  td
     border-top: 1px solid #eeeeee
     border-bottom: 1px solid #eeeeee
 
-.ext:after
-    font-family: 'Material Icons'
-    content: 'launch'
+a:link, a:visited
+  color: #0096cf
+
+a:hover, a:active
+  color: #00b0f4
+
+/* Make YouTube videos embed 16:9 */
+.youtube
+  width: calc(100vw - 25px)
+  height: calc((100vw - 25px) / 16 * 9)
+  @media (min-width: 800px)
+    width: 600px
+    height: calc(600px / 16 * 9)

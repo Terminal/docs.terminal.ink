@@ -2,7 +2,6 @@ title: Terminal.ink Documentation
 description: Documentation for Terminal.ink
 
 domain: "https://docs.terminal.ink"
-baseurl: ""
 url: "https://docs.terminal.ink"
 
 destination: docs
@@ -35,7 +34,7 @@ collections:
     output: true
   "7517":
     output: true
-  blog:
-    output: true
-  linus:
-    output: true
+  # blog:
+  #   output: true
+  # linus:
+  #   output: true

@@ -1,58 +1,50 @@
 header
-    h1
-        font-size: 1.25em
-        padding: 0px
-        margin: 0px
-    background-color: #aaaaaa
-    padding: 1em
+  display: flex
+  flex-direction: row
+  align-content: center
+  position: fixed
+  width: 100vw
+  background-color: #2a2a2a
+  padding: 1em
+  top: 0
+  h1
+    font-size: 1.25em
+    padding: 0px
+    margin: 0 0 0 15px
 
 main
-    display: flex
-    overflow-x: auto
-
-nav
-    h1
-        margin: 0
-        padding: 0 0 0 0.5em
-        font-size: 1em
-    ul
-        list-style: none
-        margin: 0  
-        padding: 0
-    li
-        padding: 0.1em 0.1em 0.1em 1em
-        display: flex
-    a, b
-        font-size: 0.8em
-    .option
-        background: #ffffff
-        transition: background 0.3s
-        &:hover
-            background: #aaaaff
-    .selected
-        background: #aaaaff
-    padding: 0.5em 0.5em 0.5em 0
-    width: 12em
-    flex-shrink: 0
+  height: calc(100vh - 4em)
+  padding-top: 4em
+  display: flex
+  flex-direction: column
 
 article
-    flex-grow: 1
-    padding: 0.5em
+  padding-left: 5px
+  padding-right: 5px
+  flex-grow: 1
+  max-width: calc(100vw - 10px)
+  img, code, p, iframe, table
+    overflow-x: auto
+  img
+    max-width: 200%
+  table
+    display: block
+    white-space: nowrap
     overflow-y: hidden
-    h1
-        font-size: 2em
-    @media (min-width: 800px)
-        padding: 0 3em 0 3em
-
+  h1
+    font-size: 2em
+  @media (min-width: 800px)
+    padding: 0 3em 0 3em
+    img
+      max-width: none
 
 footer
-    background-color: #bbbbbb
-    padding: 1em
-    text-align: center
-    flex-grow: 1
-    margin-top: 2em
+  background-color: #2b2b2b
+  padding: 1em
+  text-align: center
+  margin-top: 2em
 
 .vscode
-    width: 800px
-    border: 1px solid grey
-    margin-bottom: 1em
+  width: 800px
+  border: 1px solid grey
+  margin-bottom: 1em

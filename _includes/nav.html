@@ -1,0 +1,17 @@
+<div id="sidedarken" onclick="toggleNav()"></div>
+<div id="sidenav">
+  <ul>
+    <li>
+      <h2>Terminal.ink</h2>
+    </li>
+    <a class="default" href="/">
+      <li class="option">Back to homepage</li>
+    </a>
+    <hr>{% for category in site.data.type[page.collection].categories %}
+    <h5>{{ category.name }}</h5>{% assign sorted = site[page.collection] | sort: "title" %}{% for post in sorted %}{% if post.category == category.key %}{% if post.url == page.url %}<li class="option selected">
+      <b>{{ post.title }}</b>
+    </li>{% else %}<a class="default" href="{{ post.url }}" title="{{ post.description }}">
+      <li class="option">{{ post.title }}</li>
+    </a>{% endif %}{% endif %}{% endfor %}{% endfor %}
+  </ul>
+</div>
