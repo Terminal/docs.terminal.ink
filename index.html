@@ -16,11 +16,13 @@
   <link href="/assets/css/index.css" type="text/css" rel="stylesheet">
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons|Noto+Sans" rel="stylesheet">
 </head>
-
+<div class="head-pad"></div>
 
 <body>
   <header>
-  <i onclick="toggleNav()">Menu!</i>
+  <a href="#" onclick="toggleNav()" class="nav-button">
+    <i class="material-icons">menu</i>
+  </a>
   <a href="/">
     <h1>Terminal.ink Documentation</h1>
   </a>
@@ -30,7 +32,10 @@
 <div id="sidenav">
   <ul>
     <li>
-      <h2>Terminal.ink</h2>
+      <h2>Terminal.ink Documentation</h2>
+    </li>
+    <li>
+      <h5 id="nav-random">Hello there!</h5>
     </li>
     <a class="default" href="/">
       <li class="option">Back to homepage</li>

@@ -16,13 +16,15 @@
   <link href="/assets/css/index.css" type="text/css" rel="stylesheet">
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons|Noto+Sans" rel="stylesheet">
 </head>
-
+<div class="head-pad"></div>
 
 <body>
   <header>
-  <i onclick="toggleNav()">Menu!</i>
+  <a href="#" onclick="toggleNav()" class="nav-button">
+    <i class="material-icons">menu</i>
+  </a>
   <a href="/">
-    <h1>Terminal.ink Documentation</h1>
+    <h1>Computer Science (AQA 7517 Specification) Help</h1>
   </a>
 </header>
 
@@ -30,7 +32,10 @@
 <div id="sidenav">
   <ul>
     <li>
-      <h2>Terminal.ink</h2>
+      <h2>Terminal.ink Documentation</h2>
+    </li>
+    <li>
+      <h5 id="nav-random">Hello there!</h5>
     </li>
     <a class="default" href="/">
       <li class="option">Back to homepage</li>
@@ -62,7 +67,9 @@
     </a><a class="default" href="/7517/4.6.5.html" title="">
       <li class="option">4.6.5 Boolean Algebra</li>
     </a>
-    <h5>Fundamentals of computer organisation and architecture</h5><a class="default" href="/7517/4.7.4.html" title="">
+    <h5>Fundamentals of computer organisation and architecture</h5><a class="default" href="/7517/4.7.1.html" title="">
+      <li class="option">4.7.1 Internal hardware components of a computer</li>
+    </a><a class="default" href="/7517/4.7.4.html" title="">
       <li class="option">4.7.4 External hardware devices</li>
     </a>
     <h5>Extras and Footnote</h5><li class="option selected">
