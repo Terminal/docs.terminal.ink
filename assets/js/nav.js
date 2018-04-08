@@ -7,7 +7,8 @@
     'owo what\'s this?',
     'Hello there!',
     'UwU it\'s alright',
-    'it is wednesday my dudes'
+    'it is wednesday my dudes',
+    'Now selling: Passive HDMI to VGA cable'
   ];
 
   window.toggleNav = () => { // eslint-disable-line no-unused-vars
@@ -23,5 +24,4 @@
       document.body.className = 'noscroll';
     }
   };
-})()
-
+})();
