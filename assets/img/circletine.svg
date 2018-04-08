@@ -9,34 +9,34 @@
 # https://creativecommons.org/licenses/by-sa/4.0/
 -->
 <svg xmlns="http://www.w3.org/2000/svg" width="300" height="300">
-	<defs>
-		<style>
-			circle {
-				stroke: black;
-				stroke-width: 0.25%;
-				fill: transparent;
-				fill-opacity: 0.5;
-			}
+    <defs>
+        <style>
+            circle {
+                stroke: black;
+                stroke-width: 0.25%;
+                fill: transparent;
+                fill-opacity: 0.5;
+            }
 
-			.red {
-				fill: red;
-				fill-opacity: 0.5;
-			}
+            .red {
+                fill: red;
+                fill-opacity: 0.5;
+            }
 
-			.green {
-				fill: green;
-			}
+            .green {
+                fill: green;
+            }
 
-			.blue {
-				fill: blue;
-			}
-		</style>
-	</defs>
-	<circle cx="150" cy="100" r="100" class="red"></circle>
-	<circle cx="100" cy="200" r="100" class="green"></circle>
-	<circle cx="200" cy="200" r="100" class="blue"></circle>
-	<circle cx="150" cy="100" r="100"></circle>
-	<circle cx="100" cy="200" r="100"></circle>
-	<circle cx="200" cy="200" r="100"></circle>
-	<animateTransform attributeType="XML" attributeName="transform" type="rotate" from="0 175 150" to="360 175 150" dur="5s" repeatCount="indefinite"></animateTransform>
+            .blue {
+                fill: blue;
+            }
+        </style>
+    </defs>
+    <circle cx="150" cy="100" r="100" class="red"></circle>
+    <circle cx="100" cy="200" r="100" class="green"></circle>
+    <circle cx="200" cy="200" r="100" class="blue"></circle>
+    <circle cx="150" cy="100" r="100"></circle>
+    <circle cx="100" cy="200" r="100"></circle>
+    <circle cx="200" cy="200" r="100"></circle>
+    <animateTransform attributeType="XML" attributeName="transform" type="rotate" from="0 175 150" to="360 175 150" dur="5s" repeatCount="indefinite"></animateTransform>
 </svg>
