@@ -182,6 +182,7 @@ Types of application software include:</p>
 </ul>
 
 <h3 id="system-software">System Software</h3>
+
 <p>There are many types of system software</p>
 
 <ul>
@@ -195,7 +196,7 @@ Types of application software include:</p>
   </li>
 </ul>
 
-<h4 id="operating-system">Operating System</h4>
+<h3 id="operating-system">Operating System</h3>
 <p>The operating system provides an interface between the user and the hardware.
 They are said to provide “a virtual machine” which hides the complexities of the hardware from the user.
 The user doesn’t need to understand where about on the disk a file is being saved to. Just that they have clicked the <code class="highlighter-rouge">save</code> button. The OS does the rest.</p>
@@ -247,22 +248,24 @@ The user doesn’t need to understand where about on the disk a file is being sa
   </li>
 </ul>
 
-<h5 id="kernel">Kernel</h5>
+<h2 id="4614-role-of-an-operating-system">4.6.1.4 Role of an operating system</h2>
+
+<h3 id="kernel">Kernel</h3>
 <p>The kernel is a computer program that is the core of a computer’s operating system, with complete control over everything in the system.
 It is the first program loaded on start-up.
 It handles the rest of start-up as well as IO requests from software, translating them into data-processing instructions for the Central Processing Unit. It handles memory and peripherals like keyboards, monitors, printers, speakers.</p>
 
-<h5 id="memory-manager">Memory Manager</h5>
+<h3 id="memory-manager">Memory Manager</h3>
 <p>The OS allocates memory between the different programs that are open at the same time.
 Programmers and users do not need to know where in memory data is held - It is the purpose of the operating system to do this.</p>
 
 <p>The memory manager gives each program a private memory area in which to run
 It is also responsible for moving programs between RAM and virtual memory.</p>
 
-<h5 id="managing-cpu-time">Managing CPU time</h5>
+<h3 id="managing-cpu-time">Managing CPU time</h3>
 <p>The CPU may only have 1 core. In order to allow multi-tasking, the OS shares time between processes to create the illusion of multi-tasking</p>
 
-<h5 id="managing-the-cpu">Managing the CPU</h5>
+<h3 id="managing-the-cpu">Managing the CPU</h3>
 <p>The OS is used to run programs by clicking on an icon, selecting the program from a menu, or typing in an instruction in the command line.
 When the OS runs a piece of software, it has to find the program files on the storage device, load them into the main memory, and instruct the CPU to start executing the program from the beginning.
 In each case, the OS performs the same sequence of steps:</p>
@@ -274,7 +277,7 @@ In each case, the OS performs the same sequence of steps:</p>
   <li>The CPU program counter is set to the memory location of the first instruction in the program, and execution begins</li>
 </ol>
 
-<h5 id="multitasking">Multitasking</h5>
+<h3 id="multitasking">Multitasking</h3>
 <p>Multi-tasking allows the user to perform multiple computer tasks simultaneously, via scheduling the priority of processes.
 By giving the processor a small time slice for each task, this means all tasks appear to work simultaneously.
 To the user, it appears that we can multitask.
@@ -303,7 +306,7 @@ In reality, resources such as memory and the processor are being shared between 
 
 <p>The scheduler is part of the operating system within the kernel.</p>
 
-<h5 id="multi-user-operating-systems">Multi-user Operating Systems</h5>
+<h3 id="multi-user-operating-systems">Multi-user Operating Systems</h3>
 <p>A multi-user operating system allows multiple clients to access a more powerful computer via a network.
 This may be via a thin client.
 The thin client only acts as a terminal to access the larger computer.</p>
@@ -317,14 +320,14 @@ The thin client only acts as a terminal to access the larger computer.</p>
   <li>Allows for updates in software and security updates to be easily updated on a single computer</li>
 </ul>
 
-<h5 id="distributed-operating-systems">Distributed Operating Systems</h5>
+<h3 id="distributed-operating-systems">Distributed Operating Systems</h3>
 <p>A distributed operating system is an operating system that controls multiple computers simultaneously to perform a single task.
 Each computer contains it’s own OS, and a group of computers are a ‘cluster’.</p>
 
 <p>One use of such an operating system is for rendering video.
 A ficticious media company may use such an operating system to render a video in a shorter time span, as the workload is distributed.</p>
 
-<h5 id="real-time-operating-systems-rtos">Real Time Operating Systems (RTOS)</h5>
+<h3 id="real-time-operating-systems-rtos">Real Time Operating Systems (RTOS)</h3>
 <p>A real time operating system is an operating system which handles data in real time.
 For example, a set of traffic lights will need an RTOS to handle when a pedestrian presses the button.</p>
 
@@ -339,7 +342,7 @@ When multiple interrupts occur simultaneously, the interrupts can be prioritised
   <li>Medical diagnostic systems</li>
 </ul>
 
-<h5 id="embedded-operating-systems">Embedded Operating Systems</h5>
+<h3 id="embedded-operating-systems">Embedded Operating Systems</h3>
 <p>Embedded Operating systems are bespoke operating systems that only performs a single category of tasks.
 All the software is integrated and designed for the one specific board.</p>
 
@@ -354,7 +357,7 @@ All the software is integrated and designed for the one specific board.</p>
   <li>Network Switch</li>
 </ul>
 
-<h5 id="batch-operating-systems">Batch Operating Systems</h5>
+<h3 id="batch-operating-systems">Batch Operating Systems</h3>
 <p>A batch operating system processes tasks in ‘batches’.
 Data is collected over time, and processed all in one go.</p>
 
@@ -365,20 +368,20 @@ This will need to be processed at the end of the month, as customers could purch
 
 <p>Batch processing is different to real time processing.</p>
 
-<h5 id="online-operating-system">Online Operating System</h5>
+<h3 id="online-operating-system">Online Operating System</h3>
 <p>An online operating system is an operating system that requires the use of online software.
 Google Chrome’s ChromeOS is such an example.</p>
 
 <p>Programs are not stored locally, but are instead found online.</p>
 
-<h5 id="peripheral-management">Peripheral Management</h5>
+<h3 id="peripheral-management">Peripheral Management</h3>
 <p>Operating systems manage the way in which hardware interacts with the software
 A peripheral is a piece of hardware that is not connected directly to the CPU, such as a keyboard, a mouse, a HDD, etc.
 An OS manages all of these peripherals.</p>
 
 <p>On Linux, one may use <code class="highlighter-rouge">lspci</code> and <code class="highlighter-rouge">lsusb</code> to view some of the peripheral devices connected to the PCI lanes and the USB bus.</p>
 
-<h5 id="drivers">Drivers</h5>
+<h3 id="drivers">Drivers</h3>
 <p>Drivers are a piece of software used to control a piece of hardware.
 Drivers allow a peipheral device to be connected to a computer and it be used by an Operating System.</p>
 <ul>
@@ -386,11 +389,11 @@ Drivers allow a peipheral device to be connected to a computer and it be used by
   <li>Drivers are OS specific, and are regularly updated by companies</li>
 </ul>
 
-<h5 id="file-management">File Management</h5>
+<h3 id="file-management">File Management</h3>
 <p>Like memory management, the Operating System must identify where files are stored for long time storage on the storage medium.
 The user does not need to know the track, sector and/or surface address, but the Operating System does in order to accurately locate a file on the hard drive.</p>
 
-<h5 id="permissions">Permissions</h5>
+<h3 id="permissions">Permissions</h3>
 <p>The Operating System also keeps permissions, which keeps the computer and files stored on it safe.
 Each user is given certain permissions to perform actions.</p>
 
@@ -405,10 +408,10 @@ All teachers will be able to read the <code class="highlighter-rouge">/home/alex
   <li>Execute: <code class="highlighter-rouge">chmod +x file.sh</code></li>
 </ul>
 
-<h5 id="user-interface">User Interface</h5>
+<h3 id="user-interface">User Interface</h3>
 <p>A user interface is the method of controlling a computer.</p>
 
-<h6 id="command-line-interface">Command Line Interface</h6>
+<h4 id="command-line-interface">Command Line Interface</h4>
 <p>Text Based</p>
 
 <p>Examples include:</p>
@@ -430,7 +433,7 @@ All teachers will be able to read the <code class="highlighter-rouge">/home/alex
 - Mistyping will require hours of arrow button pressing fun
 </div>
 
-<h6 id="graphical-user-interface">Graphical User Interface</h6>
+<h4 id="graphical-user-interface">Graphical User Interface</h4>
 <p>Contains windows, icons, menus and pointers (WIMP)</p>
 
 <p>Examples include:</p>
@@ -448,7 +451,7 @@ All teachers will be able to read the <code class="highlighter-rouge">/home/alex
 - Requires more processing power to render graphics instead of text
 </div>
 
-<h6 id="menu-driven-interface">Menu Driven Interface</h6>
+<h4 id="menu-driven-interface">Menu Driven Interface</h4>
 <p>A menu driven interface is an interface designed with a hierachy of menus.</p>
 
 <div class="to-vscode">
@@ -461,7 +464,7 @@ All teachers will be able to read the <code class="highlighter-rouge">/home/alex
 - May be hard to use if designed badly
 </div>
 
-<h6 id="speech-interface">Speech Interface</h6>
+<h4 id="speech-interface">Speech Interface</h4>
 <p>A speech driven interface which recognises what the user says, and performs an action based on the input.</p>
 
 <div class="to-vscode">
