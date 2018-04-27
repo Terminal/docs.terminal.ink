@@ -188,6 +188,135 @@ and is only accessed via the members of the organisation.</p>
 
 <p>The internet society was established in 1992 to oversee and manage network protocols and systems.</p>
 
+<h2 id="network-protocol">Network Protocol</h2>
+<p>A network protocol is a set of rules that a program folows.
+This allows for a standardised format of communication.</p>
+
+<p>These rules define:</p>
+<ul>
+  <li>How to establish and terminate a communication</li>
+  <li>The format of the data being transferred</li>
+  <li>Error checking and correction</li>
+  <li>Compression</li>
+</ul>
+
+<p>The most common protocol is the <code class="highlighter-rouge">TCP/IP</code> protocol.</p>
+
+<h2 id="tcpip">TCP/IP</h2>
+<p>The protocols that make TCP/IP define how data is transferred over a network.
+Programs use TCP/IP to make up network protocols.</p>
+
+<h3 id="end-node-verification">End node verification</h3>
+<p>TCP/IP is decentralised.</p>
+
+<h3 id="protocols-that-use-tcpip">Protocols that use TCP/IP</h3>
+
+<table>
+  <thead>
+    <tr>
+      <th>Thingy</th>
+      <th>Name</th>
+      <th>Port</th>
+      <th>What</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>SSH</td>
+      <td>Secure Shell</td>
+      <td>22</td>
+      <td>Remote control command prompt</td>
+    </tr>
+    <tr>
+      <td>Telnet</td>
+      <td>Terminal Emulation Link Network</td>
+      <td>23</td>
+      <td>Remote control command prompt</td>
+    </tr>
+    <tr>
+      <td>POP3</td>
+      <td>Post Office Protocol Version 3</td>
+      <td>110, (465)</td>
+      <td>Emails!</td>
+    </tr>
+    <tr>
+      <td>SMTP</td>
+      <td>Simple Mail Transfer Protocol</td>
+      <td>143, (993)</td>
+      <td>Emails!</td>
+    </tr>
+    <tr>
+      <td>HTTP</td>
+      <td>Hypertext Transfer Protocol</td>
+      <td>80</td>
+      <td>A protocol which transfers files, such as HTML to be viewed in a web browser.</td>
+    </tr>
+    <tr>
+      <td>HTTP2</td>
+      <td>Hypertext Transfer Protocol Version 2</td>
+      <td>80</td>
+      <td>A second version which allows for more simultaneous requests to occur.</td>
+    </tr>
+    <tr>
+      <td>HTTPS</td>
+      <td>Hypertext Transfer Protocol (Secure!)</td>
+      <td>443</td>
+      <td>The same as HTTP, but wrapped up in a cozy shell of SSL</td>
+    </tr>
+    <tr>
+      <td>FTP</td>
+      <td>File Transfer Protocol</td>
+      <td>21</td>
+      <td>Move files across the internet!</td>
+    </tr>
+    <tr>
+      <td>SMB</td>
+      <td>Server Message Block</td>
+      <td> </td>
+      <td>Move files across the intranet! Also contains other Mircosoft things.</td>
+    </tr>
+    <tr>
+      <td>WebDAV</td>
+      <td>Web Distributed Authoring and Versioning</td>
+      <td>80, 443</td>
+      <td>Move files across the internet! An extension to <code class="highlighter-rouge">HTTP</code></td>
+    </tr>
+    <tr>
+      <td>SFTP</td>
+      <td>Secure File Transfer Protocol</td>
+      <td>22</td>
+      <td>Move files across the internet! Uses <code class="highlighter-rouge">SSH</code> to securely route files.</td>
+    </tr>
+    <tr>
+      <td>CSMA/CD</td>
+      <td>Carrier-sense Multiple Access (with) Collision Detection</td>
+      <td> </td>
+      <td>If there is a collision, send a packet after a random time, up to 60 seconds before discarding a packet.</td>
+    </tr>
+    <tr>
+      <td>CSMA/CA</td>
+      <td>Carrier-sense Multiple Access (with) Collision Avoidance</td>
+      <td> </td>
+      <td>Send a packet after a time period</td>
+    </tr>
+  </tbody>
+</table>
+
+<h3 id="mac">MAC</h3>
+<p>A MAC address, or a (Machine Access Code) allows for the TCP/IP to transfer data to the correct computer.
+This MAC is hard-coded into the physical network interface card.</p>
+
+<h3 id="name-servers">Name Servers</h3>
+<p>Name servers store the mapping information between IP addresses and Domain Names.
+This data is stored within a DNS server.</p>
+
+<h3 id="error-checking">Error Checking</h3>
+<p>All data transmissions are checked for corruption, and have <strong>ACK</strong>nowledgements.</p>
+
+<h3 id="ports">Ports</h3>
+<p>Ports are logical “pipelines” which allow for multiple applications to communicate simultaneously.</p>
+
+
     </article>
     <footer>
   <p>
