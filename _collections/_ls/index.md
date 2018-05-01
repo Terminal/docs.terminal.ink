@@ -10,22 +10,26 @@
 layout: docs
 category: index
 description: Index of the Terminal.ink Bot List documentation
-title: ls.terminal.ink
+title: discordbots.uk
 ---
 
-[![Build Status](https://travis-ci.org/Terminal/ls.terminal.ink.svg?branch=master)](https://travis-ci.org/Terminal/ls.terminal.ink)
+`discordbots.uk` is a repository of bots made by Terminal.ink users
 
-The Terminal.ink Bot List is a repository of bots made by Terminal.ink users
-
-- [Add a bot to the website](https://ls.terminal.ink/bot/add){: .ext}
-- [View the Queue](https://ls.terminal.ink/list/queue){: .ext}
+- [Add a bot to the website](https://discordbots.uk/bot/add)
+- [View the Queue](https://discordbots.uk/list/queue)
 
 ## List API
 - [API V1](v1)
 
 ## Useful links
 
-- [Source Code](https://github.com/Terminal/ls.terminal.ink){: .ext}
+- [Source Code](https://github.com/Terminal/ls.terminal.ink/tree/archive-pugjs)
 - [List of Open Source Materials](opensource)
 
 The Terminal.ink Bot List is licenced under the [GNU GPL v3](https://www.gnu.org/licenses/gpl-3.0.en.html){: .majik}.
+
+## Rewrite
+`discordbots.uk` is licenced under the [GNU Affero GPL v3](https://www.gnu.org/licenses/agpl.html){: .majik}.
+
+- [Source Code](https://github.com/Terminal/ls.terminal.ink)
+- [Source Code](https://github.com/Terminal/bots.terminal.ink)
