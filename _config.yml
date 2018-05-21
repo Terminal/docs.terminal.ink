@@ -38,3 +38,5 @@ collections:
   #   output: true
   # linus:
   #   output: true
+  dectalk:
+    output: true
