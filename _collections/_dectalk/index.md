@@ -28,8 +28,8 @@ Key     | Description
 ------- | ------------------
 dectalk | The text to talk.
 
-<form action="https://talk.moustacheminer.com/api/gen.wav method="POST">
+<form action="https://talk.moustacheminer.com/api/gen.wav" method="POST">
   <label for="dectalk">Insert DECtalk Query</label>
-  <textarea name="dectalk" />
+  <textarea name="dectalk"></textarea>
   <button type="submit">Download »</button>
 </form>
