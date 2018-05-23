@@ -57,7 +57,7 @@
       <h1>DECtalk Text to Speech API</h1>
       <p>The MSS DECtalk webserver is licenced under the <a href="https://github.com/moustacheminer/dectalk-webserver/blob/master/LICENCE.txt">MIT Licence</a></p>
 
-<p><a href="https://github.com/moustacheminer/dectalk-webserver/blob/master/LICENCE.txt">View the repository here</a></p>
+<p><a href="https://github.com/moustacheminer/dectalk-webserver/blob/master">View the repository here</a></p>
 
 <h2 id="get-apigendectalktalk"><strong>GET</strong> <code class="highlighter-rouge">/api/gen?dectalk=[talk]</code></h2>
 <p>Fetch a dectalk with a query.</p>
@@ -80,6 +80,13 @@ Queries are preferably in JSON, but can also be url-encoded.</p>
     </tr>
   </tbody>
 </table>
+
+<p>&lt;form action=”https://talk.moustacheminer.com/api/gen.wav method=”POST”&gt;
+  <label for="dectalk">Insert DECtalk Query</label></p>
+<textarea name="dectalk" />
+
+<p><button type="submit">Download »</button>
+&lt;/form&gt;</p>
 
     </article>
     <footer>
