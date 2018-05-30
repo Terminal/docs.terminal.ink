@@ -15,7 +15,7 @@ title: DECtalk Text to Speech API
 
 The MSS DECtalk webserver is licenced under the [MIT Licence](https://github.com/moustacheminer/dectalk-webserver/blob/master/LICENCE.txt)
 
-[View the repository here](https://github.com/moustacheminer/dectalk-webserver/blob/master/LICENCE.txt)
+[View the repository here](https://github.com/moustacheminer/dectalk-webserver/blob/master)
 
 ## **GET** `/api/gen?dectalk=[talk]`
 Fetch a dectalk with a query.
@@ -27,3 +27,9 @@ Queries are preferably in JSON, but can also be url-encoded.
 Key     | Description
 ------- | ------------------
 dectalk | The text to talk.
+
+<form action="https://talk.moustacheminer.com/api/gen.wav" method="POST">
+  <label for="dectalk">Insert DECtalk Query</label>
+  <textarea name="dectalk"></textarea>
+  <button type="submit">Download »</button>
+</form>
