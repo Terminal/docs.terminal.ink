@@ -13,10 +13,9 @@ description: Index of the Terminal.ink Bot List documentation
 title: ls.terminal.ink
 ---
 
-`ls.terminal.ink` is a repository of bots made by Terminal.ink users
+`ls.terminal.ink` was a repository of bots made by Terminal.ink users
 
-- [Add a bot to the website](https://ls.terminal.ink/bot/add)
-- [View the Queue](https://ls.terminal.ink/list/queue)
+This page is here for legacy purposes, and for clones.
 
 ## List API
 - [API V1](v1)
@@ -26,10 +25,4 @@ title: ls.terminal.ink
 - [Source Code](https://github.com/Terminal/ls.terminal.ink/tree/archive-pugjs)
 - [List of Open Source Materials](opensource)
 
-The Terminal.ink Bot List is licenced under the [GNU GPL v3](https://www.gnu.org/licenses/gpl-3.0.en.html){: .majik}.
-
-## Rewrite
-`discordbots.co.uk` is licenced under the [GNU Affero GPL v3](https://www.gnu.org/licenses/agpl.html){: .majik}.
-
-- [Backend Source Code](https://github.com/Terminal/ls.terminal.ink)
-- [Frontend Source Code](https://github.com/Terminal/bots.terminal.ink)
+The Terminal.ink Bot List is licenced under the "Unlicence" Licence. If you live in a country which the "Unlicence" is illegal, such as Germany, please contact us on Discord.
