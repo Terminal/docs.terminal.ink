@@ -10,19 +10,13 @@
 layout: docs
 category: index
 description: Index of the Terminal.ink Bot List documentation
-title: ls.terminal.ink
+title: Discord Fork List
 ---
 
-`ls.terminal.ink` was a repository of bots made by Terminal.ink users
-
-This page is here for legacy purposes, and for clones.
-
-## List API
-- [API V1](v1)
+`discordbots.co.uk` is a repository of bots, forked from `AlexFlipnote`/`Discord_Fork`.
 
 ## Useful links
+- [Source Code](https://github.com/Terminal/Discord_Fork)
 
-- [Source Code](https://github.com/Terminal/ls.terminal.ink/tree/archive-pugjs)
-- [List of Open Source Materials](opensource)
 
-The Terminal.ink Bot List is licenced under CC0.
+The Terminal.ink Bot List is licenced under the GNU GPLv3.

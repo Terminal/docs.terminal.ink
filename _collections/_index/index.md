@@ -17,11 +17,9 @@ category: index
 ## Terminal Sites
 - [api.terminal.ink](api)
 <!-- - [cats.terminal.ink](cats) -->
-- [ls.terminal.ink](ls)
+<!-- - [ls.terminal.ink](ls) -->
+- [discordbots.co.uk](not_ls)
 - [docs.terminal.ink](meta)
-
-## Educational
-- [AQA A-Level 7517 "Revision" Page](7517) _unfinished_
 
 <!-- ## Non-educational
 - [LinusTechTips Advertising](linus) -->

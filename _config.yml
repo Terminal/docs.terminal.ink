@@ -40,3 +40,5 @@ collections:
   #   output: true
   dectalk:
     output: true
+  not_ls:
+    output: true
