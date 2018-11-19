@@ -1,3 +1,6 @@
 [submodule "src/components/ModestaCSS"]
 	path = src/components/ModestaCSS
-	url = https://github.com/AlexFlipnote/ModestaCSS
+	url = https://github.com/alexflipnote/ModestaCSS
+[submodule "src/components/--force"]
+	path = src/components/--force
+	url = https://github.com/alexflipnote/ModestaCSS
