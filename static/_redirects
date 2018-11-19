@@ -1,6 +1,6 @@
 # HTTP rules
-http://ls.terminal.ink/*                        https://ls.terminal.ink/:splat 301!
-http://docs-terminal-ink.netlify.com/*          https://ls.terminal.ink/:splat 301!
-https://docs-terminal-ink.netlify.com/*         https://ls.terminal.ink/:splat 301!
+http://docs.terminal.ink/*                        https://docs.terminal.ink/:splat 301!
+http://docs-terminal-ink.netlify.com/*          https://docs.terminal.ink/:splat 301!
+https://docs-terminal-ink.netlify.com/*         https://docs.terminal.ink/:splat 301!
 
 /docs/*                                         /ls10/:splat                   301!
