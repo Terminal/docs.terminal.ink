@@ -1,0 +1,48 @@
+{
+  "background_color": "#181818",
+  "display": "standalone",
+  "icons": [
+    {
+      "src": "/assets/images/logo/logo512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/assets/images/logo/logo256.png",
+      "sizes": "256x256",
+      "type": "image/png"
+    },
+    {
+      "src": "/assets/images/logo/logo128.png",
+      "sizes": "128x128",
+      "type": "image/png"
+    },
+    {
+      "src": "/assets/images/logo/logo64.png",
+      "sizes": "64x64",
+      "type": "image/png"
+    },
+    {
+      "src": "/assets/images/logo/logo32.png",
+      "sizes": "32x32",
+      "type": "image/png"
+    },
+    {
+      "src": "/assets/images/logo/logo16.png",
+      "sizes": "16x16",
+      "type": "image/png"
+    },
+    {
+      "src": "/assets/images/logo/logo.svg",
+      "sizes": "72x72 96x96 144x144 152x152 192x192 384x384",
+      "type": "image/svg+xml"
+    }
+  ],
+  "main.js": "render-page.js",
+  "main.js.map": "render-page.js.map",
+  "name": "Discord_Fork",
+  "scope": "/?source=manifest",
+  "short_name": "Discord_Fork",
+  "start_url": "/",
+  "theme_color": "#3498db"
+}
