@@ -6,6 +6,7 @@ description: Documentation for the Discord Fork list, the open source bot listin
 # Discord Fork Developer Portal
 Discord_Fork is the (nearly) entirely clientside bot list, relying on a server only for GitHub OAuth to fetch the client token for the user.
 
+- [Website](https://fork.discordbots.co.uk)
 - [Available API endpoints](/fork/api-reference)
 - [Dependencies](https://github.com/Terminal/Discord_Fork/network/dependencies)
 

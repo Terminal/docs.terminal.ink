@@ -4,11 +4,11 @@ description: Documentation for ls.terminal.ink, the tenth iteration of the open 
 ---
 
 
-# Discord Fork Developer Portal
-Discord_Fork is the (nearly) entirely serverside bot list, relying on a other's servers for grabbing images from.
+# ls.terminal.ink Developer Portal
+ls.terminal.ink is the (nearly) entirely serverside bot list, relying on a other's servers for grabbing images from.
 
 - [Available API endpoints](/ls10/api-reference)
-- [Dependencies](https://github.com/Terminal/Discord_Fork/network/dependencies)
+- [Dependencies](https://github.com/Terminal/ls.terminal.ink/network/dependencies)
 
 ## Useful Links
 - [Add a new bot](https://ls.terminal.ink/bots/add)
@@ -18,6 +18,3 @@ Discord_Fork is the (nearly) entirely serverside bot list, relying on a other's 
 - [There's nothing to select in the "Select a server" dropdown](/ls10/bot-no-servers)
 - ["Bot requires code grant"](/ls10/bot-requires-code-grant)
 - ["UNKNOWN_ERROR"](/ls10/bot-unknown-error)
-
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/Terminal/Discord_Fork)
-
