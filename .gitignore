@@ -12,3 +12,10 @@ yarn-error.log
 _site/
 assets/
 Gemfile.lock
+
+# Latex
+*.aux
+*.fdb_latexmk
+*.fls
+*.log
+*.synctex.gz
