@@ -7,8 +7,11 @@ description: Documentation for ls.terminal.ink, the tenth iteration of the open 
 # ls.terminal.ink Developer Portal
 ls.terminal.ink is the (nearly) entirely serverside bot list, relying on a other's servers for grabbing images from.
 
-- [Available API endpoints](/ls10/api-reference)
 - [Dependencies](https://github.com/Terminal/ls.terminal.ink/network/dependencies)
+
+## API
+- [Version 2](/ls10/v2)
+- [Legacy Version 1](/ls10/api-reference)
 
 ## Useful Links
 - [Add a new bot](https://ls.terminal.ink/bots/add)

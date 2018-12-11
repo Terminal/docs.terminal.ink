@@ -1,5 +1,5 @@
 ---
-pagename: API Reference
+pagename: Terminal.ink Bot List API Endpoints Version 1
 description: Endpoints for ls.terminal.ink
 ---
 
