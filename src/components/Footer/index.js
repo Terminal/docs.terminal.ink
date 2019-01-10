@@ -19,7 +19,7 @@ class Footer extends React.Component {
             Terminal.ink
           </a>
         </div>
-        <p className="ls-footer-copyright">Copyright 2017 - 2018, Terminal.ink; Discord is a trademark of Discord Inc.</p>
+        <p className="ls-footer-copyright">Copyright 2017 - 2019, Terminal.ink; Discord is a trademark of Discord Inc.</p>
       </footer>
     );
   }
